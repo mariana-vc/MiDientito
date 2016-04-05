@@ -7,9 +7,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Historial extends Activity implements AdapterView.OnItemClickListener {
     ListView listView;
@@ -18,6 +22,31 @@ public class Historial extends Activity implements AdapterView.OnItemClickListen
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historial);
         listView = (ListView) findViewById(R.id.listView);
+
+        ArrayAdapter<String> adapter;
+        ArrayList<Historia> listItems=new ArrayList<>();
+
+
+
+        HistoriaListHandler historiaListHandler;
+        historiaListHandler = new HistoriaListHandler(new Historia());
+        historiaListHandler.executeSearch();
+
+        listItems =  historiaListHandler.getList();
+
+
+        List<String> strings = new ArrayList<String>();
+        for (Object object : listItems) {
+            strings.add(object != null ? object.toString() : null);
+        }
+
+
+
+        adapter=new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1,
+                strings);
+        listView.setAdapter(adapter);
+
         listView.setOnItemClickListener(this);
     }
 
