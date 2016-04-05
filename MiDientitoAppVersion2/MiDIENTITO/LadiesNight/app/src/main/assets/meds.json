@@ -1,0 +1,1256 @@
+
+ [
+      {
+        "CLAVE": "0101",
+        "NOMBRE":"Ácido acetilsalicílico",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0103",
+        "NOMBRE":"Ácido acetilsalicílico",
+        "DESCRIPCIÓN": "Tableta soluble o efervescente",
+        "CANTIDAD":"300 mg",
+        "PRESENTACIÓN":"20 tabletas solubles o efervescentes"
+      },
+      {
+        "CLAVE": "0108",
+        "NOMBRE":"Metamizol sódico",
+        "DESCRIPCIÓN": "Comprimido",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"10 comprimidos"
+      },
+      {
+        "CLAVE": "0109",
+        "NOMBRE":"Metamizol sódico",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"1 g/ 2 ml",
+        "PRESENTACIÓN":"3 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "0104",
+        "NOMBRE":"Paracetamol ",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "0514",
+        "NOMBRE":"Paracetamol ",
+        "DESCRIPCIÓN": "Supositorio",
+        "CANTIDAD":"100 mg",
+        "PRESENTACIÓN":"3, 6 ó 10 supositorios"
+      },
+      {
+        "CLAVE": "2100" ,
+        "NOMBRE":"Buprenorfina ",
+        "DESCRIPCIÓN": "Tableta sublingual",
+        "CANTIDAD":"0.2 mg",
+        "PRESENTACIÓN":"10 ó 20 tabletas"
+      },
+      {
+        "CLAVE": "4026" ,
+        "NOMBRE":"Buprenorfina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.30 mg/ ml ",
+        "PRESENTACIÓN":"6 ampolletas o frasco ámpula con 1 ml"
+      },
+      {
+        "CLAVE": "2098" ,
+        "NOMBRE":"Buprenorfina ",
+        "DESCRIPCIÓN": "Parche",
+        "CANTIDAD":"20 mg",
+        "PRESENTACIÓN":"Envase con 4 parches"
+      },
+      {
+        "CLAVE": "4031 " ,
+        "NOMBRE":"Capsaicina ",
+        "DESCRIPCIÓN": "Crema",
+        "CANTIDAD":"0.035 g",
+        "PRESENTACIÓN":"Envase con 40 g"
+      },
+      {
+        "CLAVE": "4028" ,
+        "NOMBRE":"Clonixinato de lisina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 mg/ 2 ml",
+        "PRESENTACIÓN":"5 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "4028" ,
+        "NOMBRE":"Clonixinato de lisina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 mg/ 2 ml",
+        "PRESENTACIÓN":"5 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "0247" ,
+        "NOMBRE":"Clonixinato de lisina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 mg/ 2 ml",
+        "PRESENTACIÓN":"5 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "0107" ,
+        "NOMBRE":"7 Dextropropoxifeno",
+        "DESCRIPCIÓN": "Cápsula o comprimido ",
+        "CANTIDAD":"65 mg",
+        "PRESENTACIÓN":"20 cápsulas o comprimidos"
+      },
+      {
+        "CLAVE": "4036" ,
+        "NOMBRE":"Etofenamato ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"1 g",
+        "PRESENTACIÓN":"Ampolleta de 2 ml."
+      },
+      {
+        "CLAVE": "4032" ,
+        "NOMBRE":"Oxicodona ",
+        "DESCRIPCIÓN": "Tableta o cápsula de liberación prolongada ",
+        "CANTIDAD":"20 mg",
+        "PRESENTACIÓN":"30 ó 100 tabletas"
+      },
+      {
+        "CLAVE": "4033" ,
+        "NOMBRE":"Oxicodona ",
+        "DESCRIPCIÓN": "Tableta de liberación prolongada",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"30 ó 100 tabletas"
+      },
+      {
+        "CLAVE": "2106" ,
+        "NOMBRE":"Tramadol ",
+        "DESCRIPCIÓN": "Tableta de liberación prolongada",
+        "CANTIDAD":"100 mg/ 2 ml ",
+        "PRESENTACIÓN":"5 ampolletas"
+      },
+      {
+        "CLAVE": "2106" ,
+        "NOMBRE":" Tramadol-paracetamo ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"37.5 mg / 325.0 mg  ",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "2106" ,
+        "NOMBRE":" Tramadol-paracetamo ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"37.5 mg / 325.0 mg  ",
+        "PRESENTACIÓN":"20 tabletas"
+      },                  
+      {
+        "CLAVE": "0204",
+        "NOMBRE":"Atropina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"1 mg/ml ",
+        "PRESENTACIÓN":"50 ampolletas con 1 ml"
+      },
+      {
+        "CLAVE": "0261",
+        "NOMBRE":"Lidocaína",
+        "DESCRIPCIÓN": "Solución inyectable al 1 % ",
+        "CANTIDAD":"500 mg/50 ml",
+        "PRESENTACIÓN":"5 frascos ámpula con 50 ml"
+      },
+      {
+        "CLAVE": "0262",
+        "NOMBRE":"Lidocaína",
+        "DESCRIPCIÓN": "Solución inyectable al 2 %",
+        "CANTIDAD":"1 g/50 ml",
+        "PRESENTACIÓN":"5 frascos ámpula con 50 ml"
+      },
+      {
+        "CLAVE": "0265",
+        "NOMBRE":"Lidocaína, epinefrina ",
+        "DESCRIPCIÓN": "Solución inyectable al 2%",
+        "CANTIDAD":"Lidocaína 1 g Epinefrina 0.25 mg",
+        "PRESENTACIÓN":"5 frascos ámpula con 50 ml"
+      },
+      {
+        "CLAVE": "0271",
+        "NOMBRE":"Bupivacaína",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"5 mg/ml ",
+        "PRESENTACIÓN":"Envase con 30 ml"
+      },
+      {
+        "CLAVE": "4055",
+        "NOMBRE":"Bupivacaína hiperbárica ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"Bupivacaína 15 mg. Dextrosa 240 mg",
+        "PRESENTACIÓN":"5 ampolletas con 3 ml"
+      },
+      {
+        "CLAVE": "4061" ,
+        "NOMBRE":"Cisatracurio, besilato de ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"10 mg/5 ml (2 mg/ml)",
+        "PRESENTACIÓN":") Ampolleta con 5 ml (10 mg/5 ml) "
+      },
+      {
+        "CLAVE": "0234 " ,
+        "NOMBRE":"Desflurano",
+        "DESCRIPCIÓN": "Líquido",
+        "CANTIDAD":"240 ml.",
+        "PRESENTACIÓN":"Envase con 240 ml."
+      },
+      {
+        "CLAVE": "0202" ,
+        "NOMBRE":"Diazepam  ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"10 mg/ 2 ml",
+        "PRESENTACIÓN":"50 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "2107 " ,
+        "NOMBRE":"Efedrina",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"50 mg/2 ml" ,
+        "PRESENTACIÓN":"100 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "0243" ,
+        "NOMBRE":"Etomidato",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"20 mg/10 ml",
+        "PRESENTACIÓN":"5 ampolletas con 10 ml"
+      },
+      {
+        "CLAVE": "0242" ,
+        "NOMBRE":"Fentanilo",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.5 mg/10 ml",
+        "PRESENTACIÓN":"6 ampolletas o frascos ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "4054" ,
+        "NOMBRE":"Flumazenil ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.5 mg/5 ml",
+        "PRESENTACIÓN":"Ampolleta con 5 ml"
+      },
+      {
+        "CLAVE": "0206" ,
+        "NOMBRE":"Flunitrazepam",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"2 mg",
+        "PRESENTACIÓN":"3 ó 5 ampolletas con 1 ml y 3 ó 5 ampolletas con diluyente"
+      },
+      {
+        "CLAVE": "0222" ,
+        "NOMBRE":"Halotano ",
+        "DESCRIPCIÓN": "Líquido ",
+        "CANTIDAD":"250 ml ",
+        "PRESENTACIÓN":"Envase con 250 ml"
+      },
+      {
+        "CLAVE": "0232" ,
+        "NOMBRE":" Isoflurano ",
+        "DESCRIPCIÓN": "Líquido",
+        "CANTIDAD":"100 ml ",
+        "PRESENTACIÓN":"Envase con 100 ml"
+      },
+      {
+        "CLAVE": "0226" ,
+        "NOMBRE":"Ketamina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"500 mg/10 ml",
+        "PRESENTACIÓN":"Frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "2108" ,
+        "NOMBRE":"Midazolam ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"5 mg/5ml",
+        "PRESENTACIÓN":"5 ampolletas con 5 ml"
+      },
+      {
+        "CLAVE": "0302" ,
+        "NOMBRE":"Naloxona",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.4 mg/ ml ",
+        "PRESENTACIÓN":"10 ampolletas con 1 ml"
+      },
+      {
+        "CLAVE": "0291" ,
+        "NOMBRE":"Neostigmina  ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.5 mg/ ml ",
+        "PRESENTACIÓN":"6 ampolletas con 1 ml"
+      },
+      {
+        "CLAVE": "4058" ,
+        "NOMBRE":"Prilocaína, felipresina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"Prilocaína 54 mg. Felipresina 0.054 UI",
+        "PRESENTACIÓN":"1 ó 50 cartuchos de 1.8 ml"
+      },
+      {
+        "CLAVE": "0246" ,
+        "NOMBRE":"Propofo",
+        "DESCRIPCIÓN": "Emulsión inyectable",
+        "CANTIDAD":"200 mg/20 ml",
+        "PRESENTACIÓN":"5 ampolletas o frascos ámpula de 20 ml"
+      },
+      {
+        "CLAVE": "0248" ,
+        "NOMBRE":"Remifentanilo",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"2 mg",
+        "PRESENTACIÓN":"5 frascos ámpula"
+      },
+      {
+        "CLAVE": "4059" ,
+        "NOMBRE":"Rocuronio, Bromuro de",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"50 mg/5 ml",
+        "PRESENTACIÓN":"12 ampolletas o frasco ámpula 5 ml"
+      },
+      {
+        "CLAVE": "0269" ,
+        "NOMBRE":"Ropivacaina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"40 mg/20 ml ",
+        "PRESENTACIÓN":"5 ampolletas con 20 ml"
+      },
+      {
+        "CLAVE": "0233" ,
+        "NOMBRE":"Sevoflurano",
+        "DESCRIPCIÓN": "Líquido",
+        "CANTIDAD":"250 ml",
+        "PRESENTACIÓN":"Envase con 250 ml"
+      },
+      {
+        "CLAVE": "0252" ,
+        "NOMBRE":"Sevoflurano",
+        "DESCRIPCIÓN": "Líquido",
+        "CANTIDAD":"250 ml",
+        "PRESENTACIÓN":"Envase con 250 ml"
+      },
+      {
+        "CLAVE": "0221" ,
+        "NOMBRE":"Tiopental sódico",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"0.5 g/20 ml",
+        "PRESENTACIÓN":"Frasco ámpula y diluyente con 20 ml"
+      },
+      {
+        "CLAVE": "0254" ,
+        "NOMBRE":"Vecuronio",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"4 mg/1 ml ",
+        "PRESENTACIÓN":"50 frascos ámpula con liofilizado y 50 ampolletas con 1 ml de diluyente"
+      },
+      {
+        "CLAVE": "2111",
+        "NOMBRE":"Amlodipino ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"5 mg ",
+        "PRESENTACIÓN":"10 ó 30 tabletas o cápsulas."
+      },
+      {
+        "CLAVE": "0574",
+        "NOMBRE":"Captopril",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"25 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "0561",
+        "NOMBRE":" Clortalidona",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"50 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0502",
+        "NOMBRE":" Digoxina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"0.25 mg ",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0503",
+        "NOMBRE":"Digoxina ",
+        "DESCRIPCIÓN": "Elíxir",
+        "CANTIDAD":"0.05 mg/ml ",
+        "PRESENTACIÓN":"Envase con 60 ml"
+      },
+      {
+        "CLAVE": "2501",
+        "NOMBRE":"Enalapril o lisinopril o ramipril ",
+        "DESCRIPCIÓN": "Cápsula o tableta",
+        "CANTIDAD":"10 mg.",
+        "PRESENTACIÓN":"30 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "0611" ,
+        "NOMBRE":"Epinefrina  ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"1 mg (1:1 000) ",
+        "PRESENTACIÓN":"50 ampolletas de 1.0 ml "
+      },
+      {
+        "CLAVE": "2114" ,
+        "NOMBRE":"Felodipino",
+        "DESCRIPCIÓN": "Tableta de liberación prolongada",
+        "CANTIDAD":"5 mg",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "0570" ,
+        "NOMBRE":"Hidralazina",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0592 " ,
+        "NOMBRE":"Isosorbida",
+        "DESCRIPCIÓN": "Tableta sublingual ",
+        "CANTIDAD":"5 mg" ,
+        "PRESENTACIÓN":"20 tabletas sublinguales"
+      },
+      {
+        "CLAVE": "0572" ,
+        "NOMBRE":"Metoprolol ",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"100 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0597" ,
+        "NOMBRE":"Nifedipino",
+        "DESCRIPCIÓN": "Cápsula de gelatina blanda",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"20 cápsulas"
+      },
+      {
+        "CLAVE": "4117" ,
+        "NOMBRE":" Pentoxifilina ",
+        "DESCRIPCIÓN": "Tableta o gragea de liberación prolongada",
+        "CANTIDAD":"400 mg",
+        "PRESENTACIÓN":"30 tabletas o grageas"
+      },
+      {
+        "CLAVE": "0523" ,
+        "NOMBRE":"Potasio sales de ",
+        "DESCRIPCIÓN": "Tableta soluble",
+        "CANTIDAD":"Bicarbonato de K+ 766 mg bitartrato de K+ 460 mg",
+        "PRESENTACIÓN":"50 tabletas solubles"
+      },
+      {
+        "CLAVE": "0530" ,
+        "NOMBRE":"Propranolol ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"40 mg ",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "0591" ,
+        "NOMBRE":"Trinitrato de glicerilo ",
+        "DESCRIPCIÓN": "Cápsula o tableta masticable",
+        "CANTIDAD":"0.8 mg",
+        "PRESENTACIÓN":"24 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "5099" ,
+        "NOMBRE":"Adenosina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"6 mg ",
+        "PRESENTACIÓN":"6 frascos ámpula con 2 ml"
+      },
+      {
+        "CLAVE": "5107 " ,
+        "NOMBRE":"Alteplasa",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"50 mg",
+        "PRESENTACIÓN":"2 frascos ámpula con liofilizado, 2 frascos ámpula con disolvente y equipo esterilizado para su reconstitución."
+      },
+      {
+        "CLAVE": "4107" ,
+        "NOMBRE":"Amiodarona ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"150 mg",
+        "PRESENTACIÓN":"6 ampolletas con 3 ml"
+      },
+      {
+        "CLAVE": "2530" ,
+        "NOMBRE":"Candesartán Cilexetilo - Hidroclorotiazida ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"16.0 mg/12.5mg",
+        "PRESENTACIÓN":"28 tabletas"
+      },
+      {
+        "CLAVE": "2545" ,
+        "NOMBRE":"Carvedilol",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"6.250 mg",
+        "PRESENTACIÓN":"Envase con 14 tabletas"
+      },
+      {
+        "CLAVE": "4307" ,
+        "NOMBRE":"Cilostazol",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"100 mg ",
+        "PRESENTACIÓN":"Envase con 30 tabletas"
+      },
+      {
+        "CLAVE": "2101" ,
+        "NOMBRE":"Clonidina",
+        "DESCRIPCIÓN": "Comprimido",
+        "CANTIDAD":"0.1 mg",
+        "PRESENTACIÓN":"30 comprimidos"
+      },
+      {
+        "CLAVE": "4246 " ,
+        "NOMBRE":"Clopidogrel",
+        "DESCRIPCIÓN": "Gragea o tableta ",
+        "CANTIDAD":"75 mg",
+        "PRESENTACIÓN":"14 ó 28 grageas o tabletas"
+      },
+      {
+        "CLAVE": "0568" ,
+        "NOMBRE":"Diazóxido",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"300 mg/ 20 ml ",
+        "PRESENTACIÓN":"Ampolleta con 20 ml"
+      },
+      {
+        "CLAVE": "0615" ,
+        "NOMBRE":"Dobutamina ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"250 mg ",
+        "PRESENTACIÓN":"5 ampolletas con 5 ml cada una o un frasco ámpula con 20 ml."
+      },
+      {
+        "CLAVE": "0614" ,
+        "NOMBRE":"Dopamina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"200 mg/ 5 ml ",
+        "PRESENTACIÓN":"5 ampolletas con 5 ml"
+      },
+      {
+        "CLAVE": "2107" ,
+        "NOMBRE":"Efedrina ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"50 mg/2 ml",
+        "PRESENTACIÓN":"100 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "5104" ,
+        "NOMBRE":"Esmolol ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"100 mg/ 10 ml",
+        "PRESENTACIÓN":"Frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "1734" ,
+        "NOMBRE":"Estreptoquinasa  ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"250 000 UI.",
+        "PRESENTACIÓN":"Frasco ámpula"
+      },
+      {
+        "CLAVE": "4095" ,
+        "NOMBRE":"Irbesartán",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"150 mg",
+        "PRESENTACIÓN":"28 tabletas"
+      },
+      {
+        "CLAVE": "4097" ,
+        "NOMBRE":"Irbesartán - hidroclorotiazidan",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"150mg/12.5 mg",
+        "PRESENTACIÓN":"28 tabletas"
+      },
+      {
+        "CLAVE": "2115" ,
+        "NOMBRE":"Isoprenalina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.2 mg/ 2 ml ",
+        "PRESENTACIÓN":"Envase con 2 ml"
+      },
+      {
+        "CLAVE": "4120" ,
+        "NOMBRE":"Isosorbida mononitrato de",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"20 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "5097" ,
+        "NOMBRE":"Levosimendan",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"2.5 mg",
+        "PRESENTACIÓN":"Frasco ámpula con 5 ó 10 ml"
+      },
+      {
+        "CLAVE": "0566" ,
+        "NOMBRE":"Metildopa",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"250 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "4200" ,
+        "NOMBRE":"Nesiritida",
+        "DESCRIPCIÓN": "Solución inyectable  ",
+        "CANTIDAD":"1.58 mg",
+        "PRESENTACIÓN":"Frasco ámpula"
+      },
+      {
+        "CLAVE": "0612" ,
+        "NOMBRE":"Norepinefrina",
+        "DESCRIPCIÓN": "Solución inyectable  ",
+        "CANTIDAD":"4 mg/ 4 ml",
+        "PRESENTACIÓN":"50 ampolletas con 4 ml"
+      },
+      {
+        "CLAVE": "2117" ,
+        "NOMBRE":"Propranolol",
+        "DESCRIPCIÓN": "Solución inyectable  ",
+        "CANTIDAD":"1 mg/ml",
+        "PRESENTACIÓN":"Ampolleta con 1.0 ml"
+      },
+      {
+        "CLAVE": "2540" ,
+        "NOMBRE":"Telmisartán",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"40 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "5117" ,
+        "NOMBRE":"Tenecteplasa",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"50.0 mg",
+        "PRESENTACIÓN":"Frasco ámpula y jeringa"
+      },
+      {
+        "CLAVE": "0623" ,
+        "NOMBRE":"Warfarina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"5 mg",
+        "PRESENTACIÓN":"25 Tabletas"
+      },      
+      {
+        "CLAVE": "5166",
+        "NOMBRE":"Acarbosa ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"50 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "0656",
+        "NOMBRE":"Ácido nicotínico ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"50 tabletas"
+      },
+      {
+        "CLAVE": "5549",
+        "NOMBRE":"Agalsidasa alfa ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"3.5 mg",
+        "PRESENTACIÓN":"Envase con frasco ámpula con 3.5 ml (1 mg/ml"
+      },
+      {
+        "CLAVE": "5106",
+        "NOMBRE":"Atorvastatina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"20 mg",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "5161",
+        "NOMBRE":"Calcitonina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"50 UI ",
+        "PRESENTACIÓN":"5, 6 ó 12 ampolletas o frascos ámpula"
+      },
+      {
+        "CLAVE": "1095",
+        "NOMBRE":"Calcitriol",
+        "DESCRIPCIÓN": "Cápsula de gelatina blanda",
+        "CANTIDAD":"0.25 µg",
+        "PRESENTACIÓN":"50 cápsulas"
+      },
+      {
+        "CLAVE": "4147" ,
+        "NOMBRE":"Corticotropina",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"60 UI",
+        "PRESENTACIÓN":"Frasco ámpula con 5 ml"
+      },
+      {
+        "CLAVE": "4507 " ,
+        "NOMBRE":"Deflazacor",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"30 mg",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "4169" ,
+        "NOMBRE":"Exenatida",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"250 µg ",
+        "PRESENTACIÓN":"Envase con pluma prellenada con 5 µg/dosis (60 dosis/1.2 ml) o una pluma con 10 µg/dosis (60 dosis/2.4 ml)."
+      },
+      {
+        "CLAVE": "4244" ,
+        "NOMBRE":"Fluvastatina",
+        "DESCRIPCIÓN": "Cápsula",
+        "CANTIDAD":"20 mg " ,
+        "PRESENTACIÓN":"14 ó 28 cápsulas"
+      },
+      {
+        "CLAVE": "2125" ,
+        "NOMBRE":"Glucagon",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"1 mg",
+        "PRESENTACIÓN":"Ampolleta"
+      },
+      {
+        "CLAVE": "4156" ,
+        "NOMBRE":"Insulina aspártica",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 UI/ml ",
+        "PRESENTACIÓN":"Frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "4168" ,
+        "NOMBRE":"Insulina glulisina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 UI",
+        "PRESENTACIÓN":"Envase con frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "1062" ,
+        "NOMBRE":"Mesterolona",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"25 mg ",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "1100" ,
+        "NOMBRE":"Paricalcitol",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"5 µg",
+        "PRESENTACIÓN":"5 ampolletas con 1 ml."
+      },
+      {
+        "CLAVE": "0591" ,
+        "NOMBRE":"Trinitrato de glicerilo ",
+        "DESCRIPCIÓN": "Cápsula o tableta masticable",
+        "CANTIDAD":"0.8 mg",
+        "PRESENTACIÓN":"24 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "4149 " ,
+        "NOMBRE":"Pioglitazona",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"15 mg ",
+        "PRESENTACIÓN":"7 tabletas"
+      },
+      {
+        "CLAVE": "4023" ,
+        "NOMBRE":"Rosuvastatina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "5163 " ,
+        "NOMBRE":"Somatropina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"4 UI",
+        "PRESENTACIÓN":"Frasco ámpula y frasco ámpula o ampolleta con 1 ó 2 ml de diluyente.l"
+      },
+      {
+        "CLAVE": "5174" ,
+        "NOMBRE":"Somatropina",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"8 mg (24 UI)",
+        "PRESENTACIÓN":"Frasco ámpula y cartucho preensamblado con 1.37 ml de diluyente"
+      },
+      {
+        "CLAVE": "1022" ,
+        "NOMBRE":"Tiamazol",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"5 mg ",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "1005" ,
+        "NOMBRE":"Tiroxina/ Triyodotironina ",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"100 µg/20 µg",
+        "PRESENTACIÓN":"50 tabletas"
+      },
+      {
+        "CLAVE": "4154" ,
+        "NOMBRE":"Vasopresina",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"20 UI",
+        "PRESENTACIÓN":"Ampolleta"
+      },                                 
+      {
+        "CLAVE": "2111",
+        "NOMBRE":"Amlodipino ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"5 mg ",
+        "PRESENTACIÓN":"10 ó 30 tabletas o cápsulas."
+      },
+      {
+        "CLAVE": "0574",
+        "NOMBRE":"Captopril",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"25 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "0561",
+        "NOMBRE":" Clortalidona",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"50 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0502",
+        "NOMBRE":" Digoxina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"0.25 mg ",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0503",
+        "NOMBRE":"Digoxina ",
+        "DESCRIPCIÓN": "Elíxir",
+        "CANTIDAD":"0.05 mg/ml ",
+        "PRESENTACIÓN":"Envase con 60 ml"
+      },
+      {
+        "CLAVE": "2501",
+        "NOMBRE":"Enalapril o lisinopril o ramipril ",
+        "DESCRIPCIÓN": "Cápsula o tableta",
+        "CANTIDAD":"10 mg.",
+        "PRESENTACIÓN":"30 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "0611" ,
+        "NOMBRE":"Epinefrina  ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"1 mg (1:1 000) ",
+        "PRESENTACIÓN":"50 ampolletas de 1.0 ml "
+      },
+      {
+        "CLAVE": "2114" ,
+        "NOMBRE":"Felodipino",
+        "DESCRIPCIÓN": "Tableta de liberación prolongada",
+        "CANTIDAD":"5 mg",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "0570" ,
+        "NOMBRE":"Hidralazina",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0592 " ,
+        "NOMBRE":"Isosorbida",
+        "DESCRIPCIÓN": "Tableta sublingual ",
+        "CANTIDAD":"5 mg" ,
+        "PRESENTACIÓN":"20 tabletas sublinguales"
+      },
+      {
+        "CLAVE": "0572" ,
+        "NOMBRE":"Metoprolol ",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"100 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "0597" ,
+        "NOMBRE":"Nifedipino",
+        "DESCRIPCIÓN": "Cápsula de gelatina blanda",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"20 cápsulas"
+      },
+      {
+        "CLAVE": "4117" ,
+        "NOMBRE":" Pentoxifilina ",
+        "DESCRIPCIÓN": "Tableta o gragea de liberación prolongada",
+        "CANTIDAD":"400 mg",
+        "PRESENTACIÓN":"30 tabletas o grageas"
+      },
+      {
+        "CLAVE": "0523" ,
+        "NOMBRE":"Potasio sales de ",
+        "DESCRIPCIÓN": "Tableta soluble",
+        "CANTIDAD":"Bicarbonato de K+ 766 mg bitartrato de K+ 460 mg",
+        "PRESENTACIÓN":"50 tabletas solubles"
+      },
+      {
+        "CLAVE": "0530" ,
+        "NOMBRE":"Propranolol ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"40 mg ",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "0591" ,
+        "NOMBRE":"Trinitrato de glicerilo ",
+        "DESCRIPCIÓN": "Cápsula o tableta masticable",
+        "CANTIDAD":"0.8 mg",
+        "PRESENTACIÓN":"24 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "5099" ,
+        "NOMBRE":"Adenosina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"6 mg ",
+        "PRESENTACIÓN":"6 frascos ámpula con 2 ml"
+      },
+      {
+        "CLAVE": "5107 " ,
+        "NOMBRE":"Alteplasa",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"50 mg",
+        "PRESENTACIÓN":"2 frascos ámpula con liofilizado, 2 frascos ámpula con disolvente y equipo esterilizado para su reconstitución."
+      },
+      {
+        "CLAVE": "4107" ,
+        "NOMBRE":"Amiodarona ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"150 mg",
+        "PRESENTACIÓN":"6 ampolletas con 3 ml"
+      },
+      {
+        "CLAVE": "2530" ,
+        "NOMBRE":"Candesartán Cilexetilo - Hidroclorotiazida ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"16.0 mg/12.5mg",
+        "PRESENTACIÓN":"28 tabletas"
+      },
+      {
+        "CLAVE": "2545" ,
+        "NOMBRE":"Carvedilol",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"6.250 mg",
+        "PRESENTACIÓN":"Envase con 14 tabletas"
+      },
+      {
+        "CLAVE": "4307" ,
+        "NOMBRE":"Cilostazol",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"100 mg ",
+        "PRESENTACIÓN":"Envase con 30 tabletas"
+      },
+      {
+        "CLAVE": "2101" ,
+        "NOMBRE":"Clonidina",
+        "DESCRIPCIÓN": "Comprimido",
+        "CANTIDAD":"0.1 mg",
+        "PRESENTACIÓN":"30 comprimidos"
+      },
+      {
+        "CLAVE": "4246 " ,
+        "NOMBRE":"Clopidogrel",
+        "DESCRIPCIÓN": "Gragea o tableta ",
+        "CANTIDAD":"75 mg",
+        "PRESENTACIÓN":"14 ó 28 grageas o tabletas"
+      },
+      {
+        "CLAVE": "0568" ,
+        "NOMBRE":"Diazóxido",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"300 mg/ 20 ml ",
+        "PRESENTACIÓN":"Ampolleta con 20 ml"
+      },
+      {
+        "CLAVE": "0615" ,
+        "NOMBRE":"Dobutamina ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"250 mg ",
+        "PRESENTACIÓN":"5 ampolletas con 5 ml cada una o un frasco ámpula con 20 ml."
+      },
+      {
+        "CLAVE": "0614" ,
+        "NOMBRE":"Dopamina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"200 mg/ 5 ml ",
+        "PRESENTACIÓN":"5 ampolletas con 5 ml"
+      },
+      {
+        "CLAVE": "2107" ,
+        "NOMBRE":"Efedrina ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"50 mg/2 ml",
+        "PRESENTACIÓN":"100 ampolletas con 2 ml"
+      },
+      {
+        "CLAVE": "5104" ,
+        "NOMBRE":"Esmolol ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"100 mg/ 10 ml",
+        "PRESENTACIÓN":"Frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "1734" ,
+        "NOMBRE":"Estreptoquinasa  ",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"250 000 UI.",
+        "PRESENTACIÓN":"Frasco ámpula"
+      },
+      {
+        "CLAVE": "4095" ,
+        "NOMBRE":"Irbesartán",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"150 mg",
+        "PRESENTACIÓN":"28 tabletas"
+      },
+      {
+        "CLAVE": "4097" ,
+        "NOMBRE":"Irbesartán - hidroclorotiazidan",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"150mg/12.5 mg",
+        "PRESENTACIÓN":"28 tabletas"
+      },
+      {
+        "CLAVE": "2115" ,
+        "NOMBRE":"Isoprenalina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"0.2 mg/ 2 ml ",
+        "PRESENTACIÓN":"Envase con 2 ml"
+      },
+      {
+        "CLAVE": "4120" ,
+        "NOMBRE":"Isosorbida mononitrato de",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"20 mg",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "5097" ,
+        "NOMBRE":"Levosimendan",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"2.5 mg",
+        "PRESENTACIÓN":"Frasco ámpula con 5 ó 10 ml"
+      },
+      {
+        "CLAVE": "0566" ,
+        "NOMBRE":"Metildopa",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"250 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "4200" ,
+        "NOMBRE":"Nesiritida",
+        "DESCRIPCIÓN": "Solución inyectable  ",
+        "CANTIDAD":"1.58 mg",
+        "PRESENTACIÓN":"Frasco ámpula"
+      },
+      {
+        "CLAVE": "0612" ,
+        "NOMBRE":"Norepinefrina",
+        "DESCRIPCIÓN": "Solución inyectable  ",
+        "CANTIDAD":"4 mg/ 4 ml",
+        "PRESENTACIÓN":"50 ampolletas con 4 ml"
+      },
+      {
+        "CLAVE": "2117" ,
+        "NOMBRE":"Propranolol",
+        "DESCRIPCIÓN": "Solución inyectable  ",
+        "CANTIDAD":"1 mg/ml",
+        "PRESENTACIÓN":"Ampolleta con 1.0 ml"
+      },
+      {
+        "CLAVE": "2540" ,
+        "NOMBRE":"Telmisartán",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"40 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "5117" ,
+        "NOMBRE":"Tenecteplasa",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"50.0 mg",
+        "PRESENTACIÓN":"Frasco ámpula y jeringa"
+      },
+      {
+        "CLAVE": "0623" ,
+        "NOMBRE":"Warfarina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"5 mg",
+        "PRESENTACIÓN":"25 Tabletas"
+      },                                  
+      {
+        "CLAVE": "1344",
+        "NOMBRE":"Albendazol ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"200 mg",
+        "PRESENTACIÓN":"2 tabletas"
+      },
+      {
+        "CLAVE": "1347 ",
+        "NOMBRE":"Ácido nicotínico ",
+        "DESCRIPCIÓN": "Tableta ",
+        "CANTIDAD":"200 mg",
+        "PRESENTACIÓN":"100 tabletas"
+      },
+      {
+        "CLAVE": "2129",
+        "NOMBRE":" Amoxicilina - ácido clavulánico",
+        "DESCRIPCIÓN": "Suspensión ",
+        "CANTIDAD":"125 mg/31.25 mg/ 5 ml",
+        "PRESENTACIÓN":"Envase con 60 ml"
+      },
+      {
+        "CLAVE": "1929",
+        "NOMBRE":"Ampicilina ",
+        "DESCRIPCIÓN": "Tableta o cápsula ",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"20 tabletas o cápsulas"
+      },
+      {
+        "CLAVE": "0071",
+        "NOMBRE":"Benzatina bencilpenicilina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"600 000 UI  ",
+        "PRESENTACIÓN":"Frasco ámpula y diluyente con 5 ml"
+      },
+      {
+        "CLAVE": "1939",
+        "NOMBRE":" Cefalexina",
+        "DESCRIPCIÓN": "Tableta ó cápsula",
+        "CANTIDAD":"500 mg ",
+        "PRESENTACIÓN":"20 tabletas ó cápsulas"
+      },
+      {
+        "CLAVE": "1926" ,
+        "NOMBRE":"Dicloxacilina",
+        "DESCRIPCIÓN": "Cápsula o comprimido ",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"20 cápsulas o comprimidos"
+      },
+      {
+        "CLAVE": "1971 " ,
+        "NOMBRE":"Eritromicina",
+        "DESCRIPCIÓN": "Cápsula o tableta",
+        "CANTIDAD":"500 mg",
+        "PRESENTACIÓN":"20 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "4169" ,
+        "NOMBRE":"Exenatida",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"250 µg ",
+        "PRESENTACIÓN":"Envase con pluma prellenada con 5 µg/dosis (60 dosis/1.2 ml) o una pluma con 10 µg/dosis (60 dosis/2.4 ml)."
+      },
+      {
+        "CLAVE": "4244" ,
+        "NOMBRE":"Fluvastatina",
+        "DESCRIPCIÓN": "Cápsula",
+        "CANTIDAD":"20 mg " ,
+        "PRESENTACIÓN":"14 ó 28 cápsulas"
+      },
+      {
+        "CLAVE": "2125" ,
+        "NOMBRE":"Glucagon",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"1 mg",
+        "PRESENTACIÓN":"Ampolleta"
+      },
+      {
+        "CLAVE": "4156" ,
+        "NOMBRE":"Insulina aspártica",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 UI/ml ",
+        "PRESENTACIÓN":"Frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "4168" ,
+        "NOMBRE":"Insulina glulisina",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"100 UI",
+        "PRESENTACIÓN":"Envase con frasco ámpula con 10 ml"
+      },
+      {
+        "CLAVE": "1062" ,
+        "NOMBRE":"Mesterolona",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"25 mg ",
+        "PRESENTACIÓN":"10 tabletas"
+      },
+      {
+        "CLAVE": "1100" ,
+        "NOMBRE":"Paricalcitol",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"5 µg",
+        "PRESENTACIÓN":"5 ampolletas con 1 ml."
+      },
+      {
+        "CLAVE": "0591" ,
+        "NOMBRE":"Trinitrato de glicerilo ",
+        "DESCRIPCIÓN": "Cápsula o tableta masticable",
+        "CANTIDAD":"0.8 mg",
+        "PRESENTACIÓN":"24 cápsulas o tabletas"
+      },
+      {
+        "CLAVE": "4149 " ,
+        "NOMBRE":"Pioglitazona",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"15 mg ",
+        "PRESENTACIÓN":"7 tabletas"
+      },
+      {
+        "CLAVE": "4023" ,
+        "NOMBRE":"Rosuvastatina",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"10 mg",
+        "PRESENTACIÓN":"30 tabletas"
+      },
+      {
+        "CLAVE": "5163 " ,
+        "NOMBRE":"Somatropina ",
+        "DESCRIPCIÓN": "Solución inyectable",
+        "CANTIDAD":"4 UI",
+        "PRESENTACIÓN":"Frasco ámpula y frasco ámpula o ampolleta con 1 ó 2 ml de diluyente.l"
+      },
+      {
+        "CLAVE": "5174" ,
+        "NOMBRE":"Somatropina",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"8 mg (24 UI)",
+        "PRESENTACIÓN":"Frasco ámpula y cartucho preensamblado con 1.37 ml de diluyente"
+      },
+      {
+        "CLAVE": "1022" ,
+        "NOMBRE":"Tiamazol",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"5 mg ",
+        "PRESENTACIÓN":"20 tabletas"
+      },
+      {
+        "CLAVE": "1005" ,
+        "NOMBRE":"Tiroxina/ Triyodotironina ",
+        "DESCRIPCIÓN": "Tableta",
+        "CANTIDAD":"100 µg/20 µg",
+        "PRESENTACIÓN":"50 tabletas"
+      },
+      {
+        "CLAVE": "4154" ,
+        "NOMBRE":"Vasopresina",
+        "DESCRIPCIÓN": "Solución inyectable ",
+        "CANTIDAD":"20 UI",
+        "PRESENTACIÓN":"Ampolleta"
+      }                                 
+]

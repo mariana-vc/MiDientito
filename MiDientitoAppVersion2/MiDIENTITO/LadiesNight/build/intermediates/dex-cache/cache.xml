@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-7ebd8b439485ac97fe69832c155c4127dcfcc769.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-9d435b0111a63ec427b7a76adb641b3ba7f21948.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/libs/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0-10eea047f452bba1a4dd0b21cd971e472a8cb509.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-23b85656d003e27745029ab84cff43749199dfd8.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b6da39caedecf838342b319d19b20e0e178220df">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-f7e7cfc8d08f2b2a9eb7fa5f39edb9578f34a771.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-408e5efeb135364bb72921e8868b6c5ff623a2d9.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-50f9af9b41b7682374517f9958546d3610a5fdf7.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-a8327c2a4d6285abe1c1ad9a278227c999ae435f.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-971541d3f7b7715d088540428d2b4d16a248da10.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-03a164dbb3803f16e5bb3bdd84e46b5ced99d987.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-cffd859c8aac5d452885d76f4055c93198a69381.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-f720bace29437051e17ee7fb211268be17dcc6a7.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-1ea321f2806db651fbb522bee99fdb411605f52d.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-09ec8b83285aa0176eceabf9fb8687cc3575f294.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-1ac5ac1c11f1db8d7e1d02b7b94867db12f69190.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-5bbd870a2d15def6f7ca6d8f9853271caea556ba.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-0a3b6943c49693820b530a5e125d21dec26d84ff.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-20e532a1908314d919b5c2edc755f50106984846.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-70a4fdc8ca4b89de3fcbd07dc5c837d3a80372fd.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-2ed8b3ade26ca92392a8a55963619bb52cb9e30d.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-3a746d97cad7c2d11bc533c8cfbe942f3edd0304.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-c420c592d7bc38f228b3523a6505e35316f31e04.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-7dff1502d421e3590b92db89b823d6b0e9a88fb4.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-47ec1513f9f1c740b18f1bfec7965c27ffa00617.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-5c49e9df0ae03eacce00c5eeafcc1a6773619182.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-33fad0dd5ee2e3f2dc6b39386727470a87c17cad.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-7eb413adf6ebef8735acf1a6a922d00d9a84d3d4.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/classes-f11e462413bbf2453ec5afd95b8079ec5f2eb970.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/libs/Parse-1.11.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54a0d027ea5d5b0dae92833991bb68f9b3da6ca6">
+        <dex dex="/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/pre-dexed/debug/Parse-1.11.0-cbdeab536d1f07953889aea0ea95ff15cb5b606c.jar" />
+    </item>
+
+</items>
