@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nurse</string>
+    <string name="action_settings">Configuración</string>
+    <string name="alta">Alta</string>
+    <string name="baja">Baja</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="consultar">Consultar</string>
+    <string name="edad">Edad</string>
+    <string name="emergencia">Emergencia</string>
+    <string name="estatura">Estatura</string>
+    <string name="modificar">Modificar</string>
+    <string name="nombre">Nombre</string>
+    <string name="numerosDeSeguro">Número de Seguro </string>
+    <string name="peso">Peso</string>
+    <string name="presion">Presion</string>
+    <string name="sangre">Tipo Sanguineo</string>
+    <string name="sexo">Sexo</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="ultimavisita">Última Visita</string>
+    <string name="doctor">Doctor</string>
+    <string name="usuario">Usuario</string>
+    <string name="alarmas">Alarmas</string>
+    <string name="contactoemergencia">Contacto de Emergencia</string>
+    <string name="medicamentos">Medicamentos</string>
+    <string name="historialClinico">Historial Clínico</string>
+    <string name="paciente">Paciente</string>
+    <string name="receta">Receta</string>
+    <string name="resultados">Resultados</string>
+    <string name="seguro">Seguro</string>
+    <string name="title_activity_agregar_paciente">Agregar Paciente</string>
+    <string name="title_activity_buscar_paciente">Buscar Paciente</string>
+    <string name="title_activity_hacer_receta">Hacer Receta</string>
+    <string name="title_activity_historia_clinico">Historial Clínico</string>
+    <string name="title_activity_login_doctor">Login Doctor</string>
+    <string name="title_activity_medicamentos">Medicamentos</string>
+    <string name="title_activity_paciente_pantalla1">Paciente Pantalla 1</string>
+    <string name="title_activity_perfil_paciente">Perfil Paciente</string>
+    <string name="title_activity_resultados_analisis">Resultados Análisis</string>
+    <string name="title_activity_splash">Splash</string>
+</resources>
