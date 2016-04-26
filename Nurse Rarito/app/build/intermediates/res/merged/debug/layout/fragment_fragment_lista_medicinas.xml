@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.itesm.proyectosalud.HacerReceta"
+    android:orientation="horizontal"
+    android:background="@android:color/holo_blue_dark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:id="@+id/save"
+        android:layout_gravity="bottom|center" />
+
+</LinearLayout><!-- From: file:/Users/velahuer/Downloads/MiDientito-master/MiDentista/Nurse%202/app/src/main/res/layout/fragment_fragment_lista_medicinas.xml -->

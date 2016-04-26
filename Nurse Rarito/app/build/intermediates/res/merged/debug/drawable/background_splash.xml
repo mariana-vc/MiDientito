@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@color/wallet_holo_blue_light"/>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@mipmap/ic_launcher"/>
+    </item>
+
+</layer-list><!-- From: file:/Users/velahuer/Downloads/MiDientito-master/MiDentista/Nurse%202/app/src/main/res/drawable/background_splash.xml -->

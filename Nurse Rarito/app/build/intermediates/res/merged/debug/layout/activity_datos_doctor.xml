@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.violeta.nurse.DatosDoctor"
+    android:background="#f5fffd">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtusuario"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentStart="true"
+        android:hint="usuario"
+        android:textColorHint="#2ac7ff"
+        android:textColor="#2ac7ff"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="password"
+        android:textColor="#2ac7ff"
+        android:textColorHint="#2ac7ff"
+        android:layout_below="@+id/txtusuario"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentEnd="true"
+        android:inputType="textPassword">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ConfirmarPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirmar Password"
+        android:textColor="#2ac7ff"
+        android:textColorHint="#2ac7ff"
+        android:layout_below="@+id/txtpassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:inputType="textPassword">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Correo"
+        android:textColor="#2ac7ff"
+        android:textColorHint="#2ac7ff"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/ConfirmarPassword"
+        android:layout_alignParentStart="true">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/Telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telefono"
+        android:textColor="#2ac7ff"
+        android:textColorHint="#2ac7ff"
+        android:layout_below="@+id/correo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="45dp">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hecho"
+        android:id="@+id/registrarse"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/Telefono"
+        android:background="#169dff" />
+
+</RelativeLayout>
+<!-- From: file:/Users/velahuer/Downloads/MiDientito-master/MiDentista/Nurse%202/app/src/main/res/layout/activity_datos_doctor.xml -->

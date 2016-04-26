@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/name"
+                    android:hint="Nombre"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#3189ff"
+                    android:textColorHint="#3189ff" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/segSoc"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Identificador"
+                    android:gravity="left"
+                    android:layout_marginBottom="10dp"
+                    android:textColorHint="#3189ff"
+                    android:textColor="#3189ff" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/edad"
+                    android:layout_gravity="center_horizontal"
+                    android:hint="Edad"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="left"
+                    android:textColor="#3189ff"
+                    android:textColorHint="#3189ff" />
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/radioGroup">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Femenino"
+                        android:id="@+id/fem"
+                        android:checked="false"
+                        android:textColor="#3189ff"
+                        android:buttonTint="#3189ff" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Masculino"
+                        android:id="@+id/masc"
+                        android:checked="false"
+                        android:textColor="#3189ff"
+                        android:buttonTint="#3189ff" />
+                </RadioGroup>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinner"
+                    android:layout_gravity="center_horizontal"
+                    android:entries="@array/tipoSangre"
+                    android:foregroundGravity="center"
+                    android:background="#3189ff" />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="alergia"
+                        android:id="@+id/alergia"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:buttonTint="#3189ff"
+                        android:textColor="#3189ff" />
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="alergia2"
+                        android:id="@+id/alergia2"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:textColor="#3189ff"
+                        android:buttonTint="#3189ff" />
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="alergia3"
+                        android:id="@+id/alergia3"
+                        android:layout_weight="1"
+                        android:checked="false"
+                        android:textColor="#3189ff"
+                        android:buttonTint="#3189ff" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hecho"
+                android:id="@+id/hecho"
+                android:background="#3189ff" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/Users/velahuer/Downloads/MiDientito-master/MiDentista/Nurse%202/app/src/main/res/layout/activity_agregar_paciente.xml -->
