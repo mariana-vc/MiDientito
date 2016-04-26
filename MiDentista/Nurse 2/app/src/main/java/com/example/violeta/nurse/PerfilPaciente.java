@@ -17,7 +17,7 @@ import com.parse.ParseQuery;
 import java.util.List;
 
 public class PerfilPaciente extends AppCompatActivity {
-    String id="123";
+    String id;
      EditText et1, et2, et3, et4;
     EditText id_paciente;
 
@@ -32,19 +32,38 @@ public class PerfilPaciente extends AppCompatActivity {
         et3 = (EditText) findViewById(R.id.et_dni);
         et4 = (EditText) findViewById(R.id.peso);
 
+        Intent intent = getIntent();
+        id = intent.getStringExtra("id");
+
         id_paciente = (EditText) findViewById(R.id.et_dni);
 
-        String nombre= "Mariana";
-        et1.setText(nombre);
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Paciente");
+        query.whereEqualTo("objectId", id);
+        query.findInBackground(new FindCallback<ParseObject>() {
+            @Override
+            public void done(List<ParseObject> list, com.parse.ParseException e) {
+                if (e == null) {
+                    for (ParseObject parseObject : list) {
+                        //parseObject.getString Jalas los datos de cada columna
+                        String nombre = parseObject.getString("Nombre");
+                        et1.setText(nombre);
 
-        String edad = "22";
-        et2.setText(edad);
+                        String edad = parseObject.getString("Edad");
+                        et2.setText(edad);
 
-        String numSeg = "123";
-        et3.setText(numSeg);
+                        String numSeg = parseObject.getString("NumeroSeguro");
+                        et3.setText(numSeg);
 
-        String tipoSangre = "O+";
-        et4.setText(tipoSangre);
+                        String tipoSangre = parseObject.getString("TipoSanguineo");
+                        et4.setText(tipoSangre);
+
+
+                    }
+
+
+                }
+            }
+        });
 
     }
 

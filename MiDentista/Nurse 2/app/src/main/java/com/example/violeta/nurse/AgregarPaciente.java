@@ -132,15 +132,36 @@ public class AgregarPaciente extends AppCompatActivity {
     }
 
     public void registro() {
+
+
+        ParseObject paciente= new ParseObject("Paciente");
+        //paciente.("objectId");
+        paciente.put("Nombre", nombre.getText().toString());
+        paciente.put("NumeroSeguro", segSoc.getText().toString());
+        paciente.put("Edad", edad.getText().toString());
+        paciente.put("Sexo", genero);
+        paciente.put("TipoSanguineo", seleccionado);
+        paciente.saveInBackground(new SaveCallback() {
+            public void done(ParseException e) {
+                if (e == null) {
+                    progressDialog.dismiss();
+                    Toast.makeText(AgregarPaciente.this, "Gracias por registrarte", Toast.LENGTH_LONG).show();
+                    Intent i = new Intent(AgregarPaciente.this, MenuOpciones.class);
+                    startActivity(i);
+                } else {
+                    Toast.makeText(AgregarPaciente.this, "Noooo", Toast.LENGTH_LONG).show();
+                }
+            }
+        });
         //--------------------------------------------------------------------------------------------------------------------------->
-        Paciente p1=new Paciente(nombre.getText().toString(), segSoc.getText().toString(), edad.getText().toString(), genero, seleccionado);
+        /*Paciente p1=new Paciente(nombre.getText().toString(), segSoc.getText().toString(), edad.getText().toString(), genero, seleccionado);
         pacientes.add(p1);
 
         progressDialog.dismiss();
         Toast.makeText(AgregarPaciente.this, "Paciente registrado", Toast.LENGTH_LONG).show();
 
         Intent i = new Intent(AgregarPaciente.this, MenuOpciones.class);
-        startActivity(i);
+        startActivity(i);*/
 
     }
 

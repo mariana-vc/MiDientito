@@ -19,6 +19,7 @@ import java.util.ArrayList;
 
 public class Historial extends ListActivity  {
 
+    String id;
     private ListView listView = null;
     ArrayList<Hist> historial=new ArrayList<Hist>();
 
@@ -33,7 +34,8 @@ public class Historial extends ListActivity  {
 
         listView = (ListView) findViewById(R.id.listView);
         new RemoteDataTask().execute();
-
+        Intent intent = getIntent();
+        id = intent.getStringExtra("id");
     }
 
     private class RemoteDataTask extends AsyncTask<Void, Void, Void> {
@@ -55,8 +57,8 @@ public class Historial extends ListActivity  {
         protected Void doInBackground(Void... params) {
             // Create the array
             HistorialListHandler historialListHandler;
-            historialListHandler = new HistorialListHandler(new Hist());
-            historialListHandler.executeSearch();
+            historialListHandler = new HistorialListHandler(new Hist(),id);
+            historialListHandler.executeSearch(id);
             historial =  historialListHandler.getList();
 
             return null;

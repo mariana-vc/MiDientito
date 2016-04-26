@@ -72,19 +72,30 @@ public class LoginDoctor extends AppCompatActivity {
                 if (usuario.getText().toString().equals("") || password.getText().toString().equals("")) {
                     Toast.makeText(getApplicationContext(), "Favor de llenar todos los campos", Toast.LENGTH_SHORT).show();
                     execute("no hay valor");
-                } else if(usuario.getText().toString().equals("admin") && password.getText().toString().equals("admin123")){
-                    Intent i = new Intent(LoginDoctor.this, MenuOpciones.class);
-                    startActivity(i);
-                    execute("procesando");
+
                 }else{
-                    Toast.makeText(getApplicationContext(), "Tus datos son incorrectos", Toast.LENGTH_SHORT).show();
-                    execute("datos incorrectors");
+                    progressDialog.show();
+                    login();
                 }
             }
         });
 
     }
-
+    public void login(){
+        ParseUser.logInInBackground(usuario.getText().toString(), password.getText().toString(), new LogInCallback() {
+            public void done(ParseUser user, ParseException e) {
+                if (user != null) {
+                    progressDialog.dismiss();
+                    Intent i = new Intent(LoginDoctor.this, MenuOpciones.class);
+                    startActivity(i);
+                } else {
+                    progressDialog.dismiss();
+                    e.printStackTrace();
+                    Toast.makeText(LoginDoctor.this,"Algo salió mal, el usuario no existe",Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
     public void execute(String request){
         System.out.println("Peticion en ejecucion: " + request);
     }

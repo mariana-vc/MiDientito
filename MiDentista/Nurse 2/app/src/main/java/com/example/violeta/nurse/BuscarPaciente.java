@@ -72,17 +72,36 @@ public class BuscarPaciente extends AppCompatActivity {
     }
 //---------------------------------------------------------------------------------------------------------------------->
     public void encontrarPaciente() {
-        //progressDialog.dismiss();
 
-        if (id_paciente.getText().toString().equals("123")) {
-            progressDialog.dismiss();
-            Toast.makeText(BuscarPaciente.this, "Paciente encontrado", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(BuscarPaciente.this, PerfilPaciente.class);
-            startActivity(intent);
-        }else{
-            progressDialog.dismiss();
-            Toast.makeText(BuscarPaciente.this, "Paciente no encontrado", Toast.LENGTH_SHORT).show();
-        }
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Paciente");
+        query.whereEqualTo("NumeroSeguro", id_paciente.getText().toString());
+        query.getFirstInBackground(new GetCallback<ParseObject>() {
+            @Override
+            public void done(ParseObject scoreList, com.parse.ParseException e) {
+                // TODO Auto-generated method stub
+                progressDialog.dismiss();
+                if (e == null) {
+                    if (scoreList != null) {
+                        Toast.makeText(BuscarPaciente.this, "Paciente encontrado", Toast.LENGTH_SHORT).show();
+                        id = scoreList.getObjectId();
+
+                        SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
+                        SharedPreferences.Editor editor = settings.edit();
+                        editor.putString("id", id);
+                        editor.commit();
+
+                        Intent intent = new Intent(BuscarPaciente.this, PerfilPaciente.class);
+                        intent.putExtra("id", id);
+                        startActivity(intent);
+                    } else {
+                        Toast.makeText(BuscarPaciente.this, "No hay pacientes registrados", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(BuscarPaciente.this, "Paciente no encontrado", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
     }
 
 
