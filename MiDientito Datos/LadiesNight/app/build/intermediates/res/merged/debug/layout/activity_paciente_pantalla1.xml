@@ -1,0 +1,82 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="mx.itesm.proyectosalud.Paciente"
+    android:orientation="vertical" android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/medicinas"
+        android:src="@drawable/pills"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:onClick="medicamentos"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+         />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/emergencia"
+        android:src="@drawable/phone"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/medicinas" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarma"
+        android:src="@drawable/alarm"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:onClick="recordatorio"
+        android:layout_below="@+id/emergencia"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:src="@drawable/uni"
+        android:adjustViewBounds="true"
+        android:cropToPadding="false"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/alarma"
+        android:layout_alignParentStart="true"
+        android:onClick="unity"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/MiDientito%2005Abril/LadiesNight/app/src/main/res/layout/activity_paciente_pantalla1.xml -->

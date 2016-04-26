@@ -1,0 +1,29 @@
+-keep class mx.itesm.ladiesnight.App {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class mx.itesm.ladiesnight.Splash { <init>(); }
+-keep class mx.itesm.ladiesnight.Login { <init>(); }
+-keep class mx.itesm.ladiesnight.PacientePantalla1 { <init>(); }
+-keep class mx.itesm.ladiesnight.Medicamentos { <init>(); }
+-keep class mx.itesm.ladiesnight.recordatorios { <init>(); }
+-keep class mx.itesm.ladiesnight.Medicamento { <init>(); }
+-keep class mx.itesm.ladiesnight.OnceLogin { <init>(); }
+-keep class mx.itesm.ladiesnight.NextActivity { <init>(); }
+-keep class mx.itesm.ladiesnight.UnityPlayerNativeActivity { <init>(); }
+-keep class mx.itesm.ladiesnight.MyReceiver { <init>(); }
+-keep class com.parse.PushService { <init>(); }
+-keep class com.parse.ParseBroadcastReceiver { <init>(); }
+-keep class com.parse.ParsePushBroadcastReceiver { <init>(); }
+-keep class com.parse.GcmBroadcastReceiver { <init>(); }
+-keep class mx.itesm.ladiesnight.Youtube { <init>(); }
+-keep class mx.itesm.ladiesnight.Historial { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+-keep class com.google.android.gms.wallet.EnableWalletOptimizationReceiver { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
