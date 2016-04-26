@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-6ad83e00b6ed8945db678ef00e4917a2c8e8e0f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-dff42cbc3af6d8283468ed286a77406b4948d2c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\libs\bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.3.0-2514505f4efd12bc3be5f94c41f6cfee99ed7903.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-460791b5d035d51c11947c8b51cd8bd7eb99a83c.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-252f21aff1467683da6e0f2436ad52395c8f8e85.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-6f2ea587ef5292542beda96e2a8801a4bedc26d2.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0-c427f268ada63cae5182c6b5899a896b3b4aa327.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-14eee4dc852336f97a5f163176cf536dc9547d96.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-6bbd6d234f5490fa96f39ea02238ccf0b06152f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-7166bec59102d9b07c9282b0b9d8ff0e92db6e52.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-cecc1a8412c184a441114c332a00909eb7f51bdf.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-937ed8dbfb52ba896789c3711b41f9ce5aea4c44.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-c9b8791ffa7b97fb55f6c303db23e9b5285741bd.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-e1719aebaee3ba6a20a907db8d78db1fd3b5ab30.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.github.amlcurran.showcaseview\library\5.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b6da39caedecf838342b319d19b20e0e178220df">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-9ffe27d1d246818d32789441bcb53bcaadb84561.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-dca13198604b9cea027553f6283417a89af66b02.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-4f03712a4616b1facda7c0863ec6697978e771bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-0ebcacfc58fdffcf8324fc524599c53fda328105.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-94ffdd4bfffa6e28012b65e5c1e1938091c8308d.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-46a3719d20a55f13e044b8815b7a75620141ab64.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-3857432ca2e9510f4dc33f6c1414f84b508d0619.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\libs\Parse-1.11.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="54a0d027ea5d5b0dae92833991bb68f9b3da6ca6">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\Parse-1.11.0-709fe7e285605ec1bfb22a09762733fda3a59638.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-30d66b92c6abaa6816d32e81ffd7cb6c8ed6b215.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-d140698e69a0c24ce1e478df8d805fadac559a6f.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-1a98f236000d9697d5df5ca63ef980fbf11e8c8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-18a4fe14a7274d1506fcc4563862a4f945da8c76.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-54ee1382f67a78e8100fb3b15eddc410c36e3b08.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-68fc8e2a13b546b7df9998a73429b1a413c49be4.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-69acf1899f9a83f77cc9966e67cd9a931255a460.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-82df4d347ebddc01cfe3cb4e8c4969749376b540.jar" />
+    </item>
+    <item
+        jar="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\MiDientito 05Abril\LadiesNight\app\build\intermediates\pre-dexed\debug\classes-a03d28a655a4de92a79cda439abc3a8c4cea68ff.jar" />
+    </item>
+
+</items>
