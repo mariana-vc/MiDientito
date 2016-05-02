@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-46cddc467adcefc9b36a8d07bb8c0ed0d9ade6bd.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-7ccf9dd7d4c617f1709fd743af20548952b8c605.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-b3489c66456761bdca62043159337f44d6fa5666.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-3e91c534535c00fd5b842ec9877fa3d990727828.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-d9ecdf78361d5ed34fb7767323b0ecc6f0f53a7a.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-e11a50a5221d96ea7918349612e14b164d9f7e6a.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-b818d9d0b3193e3bceecaecbc7aff1c5eb37679b.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-fc7b14c3bc04a9d0578b997a6f796c7159897dce.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/libs/Parse-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="54a0d027ea5d5b0dae92833991bb68f9b3da6ca6">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/Parse-1.11.0-a22022d8ff03b0003ed8ff2fb27207ddef573a40.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-a0a216d5b80ce1eae20d6fddaa8b8f02f262425d.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-109cacbf36a2b612e4b6188bae2472955288b5f5.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-ac5397750e447c6e869fabad8e12a12cf6d383a4.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-b6efad56df16f761bf87d07b0dafb34b649ae9fd.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-54d37a1fab76b764d88ea18eefc5e01558e9f462.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-238395ade0236e3b800c861e7bd3b75361bd5263.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-258e0082c96398cdea65b596db584a3bd8f7600f.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-c5ea06ccfaf81811fe927e64bfbecf584a688fc0.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-8e635a960374ef9857860bce86212037c72dd141.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-12cdbc814f24e130d053e2644372540f4ec54e4f.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-3a9bef848af6140757526c2f767ace3b250a2b52.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/libs/mpandroidchartlibrary-2-1-6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f8beaf2f9b5357717e0b1ef9f6820e517784ea1">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-2-1-6-a203ce74b2fa80bd9436a7745530e537b15f7581.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-5aef03741d5b0971a49718b87987e4fc7dd8e98a.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-ecb525eeefa4bc2eb8ec2802eba58b3416a9c628.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-842a6047b3998614361c24d14796e7cca5790309.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b6da39caedecf838342b319d19b20e0e178220df">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-b4aec37898fe9e5f280cd41c3cb6722baf041eb3.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-0594a457ac310f4cd91eb725c23894cbf10aa4b4.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-b0e378ac39ba006c376236bf4274f505334e11cc.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.3.0-e8f3c49776edbe76a5eae58b2dffa23407124ca2.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-597967728be8f8378a98899d9e784666a57934c0.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-aec0d75e756574f4ed977f45997f1604f94d7c18.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-a42849a8acf2ba42c269d3036fe1858592994248.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-13729e1eca8517213c8205bbe41106efa9fe9df4.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-4e67a352c14b809cef3c105f1e786d268c4ce115.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-238a8c5d26c9bae4f3137861f1a4bdd1db9f3253.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0-4055f21c88d04559acd49fc3e432eb59f4a14b99.jar" />
+    </item>
+    <item
+        jar="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/velahuer/Desktop/MiDentista/Nurse 2/app/build/intermediates/pre-dexed/debug/classes-ee2c12dfe98beb2659ad2b79c654552d3689dd16.jar" />
+    </item>
+
+</items>

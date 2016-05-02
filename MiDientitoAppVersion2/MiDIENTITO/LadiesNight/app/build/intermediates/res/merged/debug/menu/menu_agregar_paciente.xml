@@ -5,4 +5,4 @@
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>
-<!-- From: file:/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/src/main/res/menu/menu_agregar_paciente.xml -->
+<!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDientitoAppVersion2/MiDIENTITO/LadiesNight/app/src/main/res/menu/menu_agregar_paciente.xml -->

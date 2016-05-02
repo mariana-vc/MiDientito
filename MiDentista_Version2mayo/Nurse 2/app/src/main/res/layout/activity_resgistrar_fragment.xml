@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:id="@+id/linear">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+            </LinearLayout>
+
+            <ImageButton
+
+                android:id="@+id/imageView3"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/registrar"
+                android:layout_width="300dp"
+                android:background="@color/white"
+                android:layout_height="300dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Comenzar Registro"
+                android:id="@+id/hecho"
+                android:background="#3189ff"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

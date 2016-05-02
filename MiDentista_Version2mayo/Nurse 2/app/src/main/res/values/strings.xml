@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">MiDentista</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_doctor">Doctor Login</string>
+    <string name="title_activity_buscar_paciente">Search</string>
+    <string name="title_activity_perfil_paciente">Patient profile</string>
+    <string name="title_activity_agregar_paciente">Add </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_hacer_receta">Send a prescription</string>
+    <string name="title_activity_historia_clinico">Medical Records</string>
+    <string name="title_activity_medicamentos">Medicine</string>
+    <string name="title_activity_paciente_pantalla1">PacientePantalla1</string>
+    <string name="title_activity_resultados_analisis">Test Results</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="numerosDeSeguro">Insurance Number</string>
+    <string name="nombre">Name</string>
+    <string name="edad">Age</string>
+    <string name="sexo">Sex</string>
+    <string name="sangre">Blood Type</string>
+    <string name="peso">Weight</string>
+    <string name="estatura">Height</string>
+    <string name="presion">Blood Pleasure</string>
+    <string name="ultimavisita">Last Visit</string>
+    <string name="ciudad">City</string>
+    <string name="emergencia">Emergency</string>
+    <string name="alta">Add</string>
+    <string name="baja">Delete</string>
+    <string name="consultar">Review</string>
+    <string name="modificar">Modify</string>
+    <string name="siguiente">Next</string>
+    <string name="doctor">Doctor</string>
+    <string name="paciente">Pacient</string>
+    <string name="usuario">User</string>
+    <string name="medicamentos">Medicines</string>
+    <string name="contactoemergencia">Emergency Contact</string>
+    <string name="alarmas">Alarms</string>
+    <string name="seguro">Insurance Number</string>
+    <string name="historialClinico">Medical History</string>
+    <string name="resultados">Results</string>
+    <string name="receta">RX Prescription</string>
+    <string name="title_activity_splash2">Splash2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_datos_doctor">DatosDoctor</string>
+
+
+    <array name="tipoSangre">
+        <item>O+</item>
+        <item>O-</item>
+        <item>B+</item>
+    </array>
+    <string name="title_activity_menu_opciones">MenuOpciones</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_resgistrar_fragment">ResgistrarFragment</string>
+    <string name="title_activity_historial_pasos">HistorialPasos</string>
+    <string name="title_activity_graficas">Graficas</string>
+    <string name="title_activity_historial">Historial</string>
+
+    <string-array name="historial_array">
+        <item>Fecha: 22/11/2015  REVISION GENERAL</item>
+        <item>Fecha: 20/12/2015  LIMPIEZA </item>
+        <item>Fecha: 12/01/2016  SE POSPUSO CITA</item>
+        <item>Fecha: 13/02/2016  TRATAMIENTO COMPLETO</item>
+        <item>Fecha: 05/03/2016  AESRTRYTYUBNM</item>
+        <item>Fecha: 30/04/2016  ZRXTCYVUBIJN</item>
+        <item>Fecha: 24/06/2016  3ZWXCTVYBUNICYV</item>
+    </string-array>
+</resources>

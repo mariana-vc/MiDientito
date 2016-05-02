@@ -1,0 +1,71 @@
+<RelativeLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@android:color/white">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtusuario"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentStart="true"
+        android:hint="usuario"
+        android:layout_alignEnd="@+id/login"
+        android:textColorHint="#2ac7ff"
+        android:textColor="#2ac7ff"
+        android:gravity="center_horizontal" />
+
+
+
+
+    <EditText
+        android:id="@+id/txtpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColor="#2ac7ff"
+        android:textColorHint="#2ac7ff"
+        android:layout_below="@+id/txtusuario"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center_horizontal">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/login"
+        android:textColor="#fafdff"
+        android:background="#FF2AC7FF"
+        android:layout_below="@+id/txtpassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/doctor"
+        android:maxWidth="5mm"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20pt" />
+
+
+
+</RelativeLayout>
+<!-- From: file:/Users/velahuer/Desktop/MiDentista/Nurse%202/app/src/main/res/layout/activity_login_doctor.xml -->

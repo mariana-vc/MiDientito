@@ -19,4 +19,4 @@
 <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-        android:src="@drawable/hand" /><!-- From: file:/Users/amlcurran/Projects/ShowcaseView/library/src/main/res/layout/handy.xml --><!-- From: file:/Users/velahuer/Downloads/MiDientitoApp/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.3.0/res/layout/handy.xml -->
+        android:src="@drawable/hand" /><!-- From: file:/Users/amlcurran/Projects/ShowcaseView/library/src/main/res/layout/handy.xml --><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDientitoAppVersion2/MiDIENTITO/LadiesNight/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.3.0/res/layout/handy.xml -->
