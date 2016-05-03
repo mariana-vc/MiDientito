@@ -2,6 +2,14 @@
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <array name="Donador">
+        <item>Si</item>
+        <item>No</item>
+    </array>
+    <array name="Hemofilia">
+        <item>Si</item>
+        <item>No</item>
+    </array>
     <string-array name="historial_array">
         <item>Fecha: 22/11/2015  REVISION GENERAL</item>
         <item>Fecha: 20/12/2015  LIMPIEZA </item>
@@ -12,9 +20,14 @@
         <item>Fecha: 24/06/2016  3ZWXCTVYBUNICYV</item>
     </string-array>
     <array name="tipoSangre">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
         <item>O+</item>
         <item>O-</item>
-        <item>B+</item>
     </array>
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values/values.xml -->
     <eat-comment/>
@@ -527,6 +540,7 @@
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="doctor">Doctor</string>
+    <string name="donador">Organs doner</string>
     <string name="edad">Age</string>
     <string name="emergencia">Emergency</string>
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/values/strings_activity_registro_doctores.xml -->
@@ -540,6 +554,7 @@
     <string name="estatura">Height</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
+    <string name="hemofilia">Hemophilia</string>
     <string name="historialClinico">Medical History</string>
     <string name="medicamentos">Medicines</string>
     <string name="modificar">Modify</string>

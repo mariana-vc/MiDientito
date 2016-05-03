@@ -196,14 +196,14 @@ public final class R {
 		public static final int monochrome = 0x7f0e0062;
 		public static final int none = 0x7f0e0014;
 		public static final int normal = 0x7f0e0010;
-		public static final int place_autocomplete_clear_button = 0x7f0e00e0;
-		public static final int place_autocomplete_powered_by_google = 0x7f0e00e2;
-		public static final int place_autocomplete_prediction_primary_text = 0x7f0e00e4;
-		public static final int place_autocomplete_prediction_secondary_text = 0x7f0e00e5;
-		public static final int place_autocomplete_progress = 0x7f0e00e3;
-		public static final int place_autocomplete_search_button = 0x7f0e00de;
-		public static final int place_autocomplete_search_input = 0x7f0e00df;
-		public static final int place_autocomplete_separator = 0x7f0e00e1;
+		public static final int place_autocomplete_clear_button = 0x7f0e00e9;
+		public static final int place_autocomplete_powered_by_google = 0x7f0e00eb;
+		public static final int place_autocomplete_prediction_primary_text = 0x7f0e00ed;
+		public static final int place_autocomplete_prediction_secondary_text = 0x7f0e00ee;
+		public static final int place_autocomplete_progress = 0x7f0e00ec;
+		public static final int place_autocomplete_search_button = 0x7f0e00e7;
+		public static final int place_autocomplete_search_input = 0x7f0e00e8;
+		public static final int place_autocomplete_separator = 0x7f0e00ea;
 		public static final int production = 0x7f0e004c;
 		public static final int sandbox = 0x7f0e004d;
 		public static final int satellite = 0x7f0e003a;
@@ -269,8 +269,8 @@ public final class R {
 		public static final int decline = 0x7f070071;
 		public static final int place_autocomplete_clear_button = 0x7f07003b;
 		public static final int place_autocomplete_search_hint = 0x7f07003c;
-		public static final int store_picture_message = 0x7f07007d;
-		public static final int store_picture_title = 0x7f07007e;
+		public static final int store_picture_message = 0x7f07007f;
+		public static final int store_picture_title = 0x7f070080;
 		public static final int wallet_buy_button_place_holder = 0x7f07003e;
 	}
 	public static final class style {

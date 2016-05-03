@@ -30,10 +30,10 @@ import java.util.ArrayList;
 
 
 public class AgregarPaciente extends AppCompatActivity {
-    EditText nombre, segSoc,edad;
+    EditText nombre, segSoc,edad, peso, estatura, telemergencia;
     RadioGroup radioGroup;
     RadioButton masc, fem;
-    Spinner spinner;
+    Spinner spinner, hemofilia, donador;
     CheckBox alergia,alergia2,alergia3;
     Button hecho;
     String seleccionado;
@@ -50,13 +50,20 @@ public class AgregarPaciente extends AppCompatActivity {
         nombre = (EditText)findViewById(R.id.name);
         segSoc = (EditText)findViewById(R.id.segSoc);
         edad = (EditText)findViewById(R.id.edad);
+        peso = (EditText)findViewById(R.id.peso);
+        estatura = (EditText)findViewById(R.id.estatura);
+        telemergencia = (EditText)findViewById(R.id.telemergencia);
         //---------------------------------------------------------------------------------------->
         edad.setFilters(new InputFilter[]{new InputFilterMinMax("0", "120")});
+        peso.setFilters(new InputFilter[]{new InputFilterMinMax("0", "400")});
+        estatura.setFilters(new InputFilter[]{new InputFilterMinMax("20", "200")});
 
         radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
         masc = (RadioButton)findViewById(R.id.masc);
         fem = (RadioButton)findViewById(R.id.fem);
         spinner = (Spinner)findViewById(R.id.spinner);
+        hemofilia = (Spinner)findViewById(R.id.hemofilia);
+        donador = (Spinner)findViewById(R.id.donador);
         alergia = (CheckBox)findViewById(R.id.alergia);
         alergia2 = (CheckBox)findViewById(R.id.alergia2);
         alergia3 = (CheckBox)findViewById(R.id.alergia3);
@@ -97,13 +104,13 @@ public class AgregarPaciente extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (alergia.isChecked()) {
-                    Toast.makeText(getApplicationContext(), "Alegia 1", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Alergia 1", Toast.LENGTH_SHORT).show();
                 }
                 if (alergia2.isChecked()) {
-                    Toast.makeText(getApplicationContext(), "Alegia 2", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Alergia 2", Toast.LENGTH_SHORT).show();
                 }
                 if (alergia3.isChecked()) {
-                    Toast.makeText(getApplicationContext(), "Alegia 3", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Alergia 3", Toast.LENGTH_SHORT).show();
                 }
                 // ------------------------------------------------------------------------------------------>
                 //Intent i = new Intent(AgregarPaciente.this, MenuOpciones.class);
@@ -119,6 +126,9 @@ public class AgregarPaciente extends AppCompatActivity {
                 if (nombre.getText().toString().equals("")
                         || segSoc.getText().toString().equals("")
                         || edad.getText().toString().equals("")
+                        || peso.getText().toString().equals("")
+                        || estatura.getText().toString().equals("")
+                        || telemergencia.getText().toString().equals("")
                         || genero.equals("")
                         || seleccionado.equals("")) {
                     Toast.makeText(getApplicationContext(), "Favor de llenar todos los campos", Toast.LENGTH_SHORT).show();
@@ -139,8 +149,13 @@ public class AgregarPaciente extends AppCompatActivity {
         paciente.put("Nombre", nombre.getText().toString());
         paciente.put("NumeroSeguro", segSoc.getText().toString());
         paciente.put("Edad", edad.getText().toString());
+        paciente.put("Peso", peso.getText().toString());
+        paciente.put("Estatura", estatura.getText().toString());
+        paciente.put("ContactoDeEmergencia", telemergencia.getText().toString());
         paciente.put("Sexo", genero);
         paciente.put("TipoSanguineo", seleccionado);
+        paciente.put("Hemofilia", seleccionado);
+        paciente.put("Donador", seleccionado);
         paciente.saveInBackground(new SaveCallback() {
             public void done(ParseException e) {
                 if (e == null) {

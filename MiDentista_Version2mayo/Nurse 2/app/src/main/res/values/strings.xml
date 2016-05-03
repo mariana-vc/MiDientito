@@ -19,6 +19,8 @@
     <string name="edad">Age</string>
     <string name="sexo">Sex</string>
     <string name="sangre">Blood Type</string>
+    <string name="hemofilia">Hemophilia</string>
+    <string name="donador">Organs doner</string>
     <string name="peso">Weight</string>
     <string name="estatura">Height</string>
     <string name="presion">Blood Pleasure</string>
@@ -47,9 +49,24 @@
 
 
     <array name="tipoSangre">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
         <item>O+</item>
         <item>O-</item>
-        <item>B+</item>
+    </array>
+
+    <array name="Hemofilia">
+        <item>Si</item>
+        <item>No</item>
+    </array>
+
+    <array name="Donador">
+        <item>Si</item>
+        <item>No</item>
     </array>
     <string name="title_activity_menu_opciones">MenuOpciones</string>
 

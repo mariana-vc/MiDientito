@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_dark"
+    android:background="@android:color/holo_blue_light"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -11,24 +11,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/idPac" />
+        android:text="MEDICINAS"
+        android:id="@+id/idPac"
+        android:textColor="#ffffff"
+        android:textSize="50px" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Text"
-        android:id="@+id/medicinas" />
+        android:id="@+id/medicinas"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Indicaciones"
+        android:id="@+id/textView3"
+        android:layout_marginTop="35px" />
+
     <EditText
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:hint="INDICACIONES"
+        android:hint="Indicaciones / observaciones"
+        android:gravity="center"
+        android:background="@android:color/holo_blue_dark"
         android:id="@+id/indicaciones" />
+
     <Button
         android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_dark"
+        android:background="@android:color/white"
         android:text="Guardar"
         android:layout_gravity="center_horizontal"
         android:id="@+id/guardaReceta" />
