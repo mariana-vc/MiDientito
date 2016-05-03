@@ -47,7 +47,7 @@ public class GuardarReceta extends Fragment {
         TextView medicinasT = (TextView) rootView.findViewById(R.id.medicinas);
         indicaciones = (EditText) rootView.findViewById(R.id.indicaciones);
         idP = getArguments().getString("id");
-        //idPac.setText(idP);
+        idPac.setText("MEDICINAS");
         Button save = (Button) rootView.findViewById(R.id.guardaReceta);
         ArrayList medicinas;
         medicinas = getArguments().getStringArrayList("medicinas");
@@ -99,9 +99,9 @@ public class GuardarReceta extends Fragment {
             // Create a progressdialog
             mProgressDialog = new ProgressDialog(getActivity());
             // Set progressdialog title
-            mProgressDialog.setTitle("Recordatorios");
+            mProgressDialog.setTitle("Medicamentos");
             // Set progressdialog message
-            mProgressDialog.setMessage("Buscando...");
+            mProgressDialog.setMessage("Guardando...");
             mProgressDialog.setIndeterminate(false);
             // Show progressdialog
             mProgressDialog.show();
@@ -118,8 +118,6 @@ public class GuardarReceta extends Fragment {
                 medicinasT.setText(x);
             }
 
-
-
         }
 
         @Override
@@ -127,7 +125,6 @@ public class GuardarReceta extends Fragment {
             // Create the array
             //rootView = inflater.inflate(R.layout.guardar_receta, container, false);
             idMedicina = "";
-
 
             ParseObject p_m;
             int num=0;
@@ -147,8 +144,6 @@ public class GuardarReceta extends Fragment {
                                 } else {
                                     Log.d(getClass().getSimpleName(), "Error: " + e.getMessage());
                                 }
-                                Log.v("-------------->SIZEmeds", medicinas.size() + "<-----------");
-                                Log.v("-------------->SIZE1", idMedicinas.size() + "<-----------");
                                 if(medicinas.size() == idMedicinas.size()){
                                     for (int i = 0; i < idMedicinas.size(); i++) {
                                         Log.v("Entro", "Entro al for");
@@ -184,15 +179,11 @@ public class GuardarReceta extends Fragment {
             Log.v("--------------> size",idMedicinas.size()+ "<-----------");
             Log.v("--------> sizemeds",medicinas.size()+ "<--------");
 
-
-
-
             return null;
         }
 
         @Override
         protected void onPostExecute(Void result) {
-
 
             // Close the progressdialog
             //closefragment();

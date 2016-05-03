@@ -13,44 +13,105 @@
     android:background="@android:color/holo_blue_light"
     android:weightSum="1">
 
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.07">
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="70dp"
+            android:layout_height="22dp"
+            android:textSize="35px"
+            android:text="ID" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number|text"
-        android:ems="10"
-        android:id="@+id/et_dni"
-        android:hint="Numero Seguro"
-        android:gravity="left" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number|text"
+            android:ems="10"
+            android:id="@+id/et_dni"
+            android:hint="ID"
+            android:gravity="left"
+            android:layout_weight="1"
+            android:editable="false" />
 
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:ems="10"
-        android:id="@+id/nombre"
-        android:hint="Nombre"
-        android:gravity="left" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.07">
+        <TextView
+            android:id="@+id/nombre2"
+            android:layout_width="70dp"
+            android:layout_height="22dp"
+            android:textSize="35px"
+            android:text="Nombre" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/nombre"
+            android:hint="Nombre"
+            android:gravity="left"
+            android:editable="false" />
 
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/edad"
-        android:hint="Edad"
-        android:gravity="left"
-        android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.07">
+        <TextView
+            android:id="@+id/edad2"
+            android:layout_width="70dp"
+            android:layout_height="22dp"
+            android:textSize="35px"
+            android:text="Edad" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:id="@+id/peso"
-        android:hint="TipoDesangre"
-        android:gravity="left"
-        android:inputType="numberDecimal" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/edad"
+            android:hint="Edad"
+            android:gravity="left"
+            android:inputType="number"
+            android:editable="false" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.07">
+        <TextView
+            android:id="@+id/peso2"
+            android:layout_width="70dp"
+            android:layout_height="22dp"
+            android:textSize="35px"
+            android:text="Sangre" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/peso"
+            android:hint="Tipo de sangre"
+            android:gravity="left"
+            android:inputType="numberDecimal"
+            android:editable="false" />
+
+
+    </LinearLayout>
+
+
 
 
     <Button
