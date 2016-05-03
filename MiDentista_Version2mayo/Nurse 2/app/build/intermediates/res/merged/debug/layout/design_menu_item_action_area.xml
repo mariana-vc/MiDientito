@@ -17,4 +17,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              android:layout_width="wrap_content"
              android:layout_height="match_parent"/>
+<<<<<<< Updated upstream
 <!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout/design_menu_item_action_area.xml --><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml -->
+=======
+<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/layout/design_menu_item_action_area.xml --><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/layout/design_menu_item_action_area.xml -->
+>>>>>>> Stashed changes

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< Updated upstream
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-w480dp/values-w480dp.xml -->
+=======
+    <!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-w480dp/values-w480dp.xml -->
+>>>>>>> Stashed changes
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs_pre_jb">true</bool>
     <bool name="abc_config_allowActionMenuItemTextWithIcon">true</bool>

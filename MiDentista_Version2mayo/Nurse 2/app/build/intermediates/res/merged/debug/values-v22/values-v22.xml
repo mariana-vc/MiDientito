@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< Updated upstream
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v22/values-v22.xml -->
+=======
+    <!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/values-v22/values-v22.xml -->
+>>>>>>> Stashed changes
     <eat-comment/>
     <style name="Base.Theme.AppCompat" parent="Base.V22.Theme.AppCompat"/>
     <style name="Base.Theme.AppCompat.Light" parent="Base.V22.Theme.AppCompat.Light"/>

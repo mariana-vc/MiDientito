@@ -6,4 +6,8 @@
     android:elevation="0dp"
     android:theme="@style/Base.ThemeOverlay.AppCompat.Dark"
     xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< Updated upstream
     android:alpha="1" /><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/tool_bar.xml -->
+=======
+    android:alpha="1" /><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/tool_bar.xml -->
+>>>>>>> Stashed changes

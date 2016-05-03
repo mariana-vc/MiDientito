@@ -14,4 +14,8 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
+<<<<<<< Updated upstream
 </RelativeLayout><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/tab_1.xml -->
+=======
+</RelativeLayout><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/tab_1.xml -->
+>>>>>>> Stashed changes

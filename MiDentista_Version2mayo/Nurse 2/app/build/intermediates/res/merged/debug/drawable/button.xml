@@ -17,4 +17,8 @@
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/button_normal" />
+<<<<<<< Updated upstream
 </selector><!-- From: file:/Users/amlcurran/Projects/ShowcaseView/library/src/main/res/drawable/button.xml --><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.3.0/res/drawable/button.xml -->
+=======
+</selector><!-- From: file:/Users/amlcurran/Projects/ShowcaseView/library/src/main/res/drawable/button.xml --><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.github.amlcurran.showcaseview/library/5.3.0/res/drawable/button.xml -->
+>>>>>>> Stashed changes

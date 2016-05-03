@@ -22,4 +22,8 @@
         android:id="@+id/save"
         android:layout_gravity="bottom|center" />
 
+<<<<<<< Updated upstream
 </LinearLayout><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/fragment_fragment_lista_medicinas.xml -->
+=======
+</LinearLayout><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/fragment_fragment_lista_medicinas.xml -->
+>>>>>>> Stashed changes
