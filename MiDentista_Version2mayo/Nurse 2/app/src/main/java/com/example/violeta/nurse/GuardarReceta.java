@@ -3,6 +3,7 @@ package com.example.violeta.nurse;
 import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.annotation.Nullable;
@@ -26,6 +27,8 @@ import java.util.List;
 
 
 public class GuardarReceta extends Fragment {
+
+
     private long mLastClickTime = 0;
     boolean flag = false;
     View rootView;
@@ -33,7 +36,7 @@ public class GuardarReceta extends Fragment {
     int tag;
     String idMedicina;
     EditText indicaciones;
-    private ProgressDialog progressDialog;
+    ProgressDialog mProgressDialog ;
     ArrayList idMedicinas;
 
     @Nullable
@@ -44,76 +47,30 @@ public class GuardarReceta extends Fragment {
         TextView medicinasT = (TextView) rootView.findViewById(R.id.medicinas);
         indicaciones = (EditText) rootView.findViewById(R.id.indicaciones);
         idP = getArguments().getString("id");
-        idPac.setText(idP);
+        //idPac.setText(idP);
         Button save = (Button) rootView.findViewById(R.id.guardaReceta);
+        ArrayList medicinas;
+        medicinas = getArguments().getStringArrayList("medicinas");
 
-
-        final ArrayList medicinas = getArguments().getStringArrayList("medicinas");
         String x = "";
+
         for (int i = 0; i < medicinas.size(); i++) {
             Log.v("MEDICINASRECETa", medicinas.get(i).toString());
             x += medicinas.get(i).toString();
             x += "\n";
             medicinasT.setText(x);
         }
-        idMedicina = "";
-        idMedicinas = new ArrayList();
+
+
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(SystemClock.elapsedRealtime() - mLastClickTime < 1000){
-                    return;
-                }
-                mLastClickTime = SystemClock.elapsedRealtime();
 
-
-                ParseObject p_m;
-                p_m = new ParseObject("Paciente_medicamento");
-                for (int i = 0; i < medicinas.size(); i++) {
-                    ParseQuery<ParseObject> query = ParseQuery.getQuery("Medicamento");
-                    query.whereEqualTo("nombre", medicinas.get(i).toString()).
-                            findInBackground(new FindCallback<ParseObject>() {
-                                public void done(List<ParseObject> objects, ParseException e) {
-                                    if (e == null) {
-                                        for (ParseObject parseObject : objects) {
-                                            Log.v("Parse Object", parseObject.getObjectId().toString());
-                                            idMedicina = parseObject.getObjectId().toString();
-                                            idMedicinas.add(idMedicina);
-                                        }
-
-                                    } else {
-                                        Log.d(getClass().getSimpleName(), "Error: " + e.getMessage());
-                                    }
-                                }
-                            });
-                }
-                Log.v("size",idMedicinas.size()+"");
-                for (int i = 0; i < idMedicinas.size(); i++) {
-                    Log.v("Entro","Entro al for");
-                    ParseObject p_m2 = new ParseObject("Paciente_medicamento");
-                    p_m2.put("id_p", idP);
-                    p_m2.put("periodo", indicaciones.getText().toString());
-                    p_m2.put("id_m", idMedicinas.get(i).toString());
-                    p_m2.saveInBackground(new SaveCallback() {
-                        @Override
-                        public void done(ParseException e) {
-                            if (e == null) {
-                                Toast.makeText(getActivity().getApplicationContext(), "Medicamento guardado", Toast.LENGTH_LONG).show();
-                                //closefragment();
-                                Log.i("veces", String.valueOf(tag));
-                                flag = true;
-                                tag++;
-                            } else {
-                                Toast.makeText(getActivity().getApplicationContext(), "Algo salio mal", Toast.LENGTH_LONG).show();
-                                e.printStackTrace();
-                            }
-                        }
-                    });
-                }
-               // if(flag == true){
-                    closefragment();
+                new RemoteDataTask(rootView).execute();
+                // if(flag == true){
+                //getActivity().getFragmentManager().popBackStack();
+                closefragment();
                 //}
-
 
             }
 
@@ -121,10 +78,129 @@ public class GuardarReceta extends Fragment {
         return rootView;
     }
     public void closefragment(){
-        getActivity().getFragmentManager().popBackStack();
-        //getActivity().getFragmentManager().popBackStack();
-        //getActivity().onBackPressed();
+
+        getActivity().onBackPressed();
+        getActivity().onBackPressed();
     }
+
+    private class RemoteDataTask extends AsyncTask<Void, Void, Void> {
+
+        View rootView;
+        TextView medicinasT;
+        ArrayList medicinas;
+        ArrayList idMedicinas=new ArrayList();
+        public RemoteDataTask(View v){
+            this.rootView=v;
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            // Create a progressdialog
+            mProgressDialog = new ProgressDialog(getActivity());
+            // Set progressdialog title
+            mProgressDialog.setTitle("Recordatorios");
+            // Set progressdialog message
+            mProgressDialog.setMessage("Buscando...");
+            mProgressDialog.setIndeterminate(false);
+            // Show progressdialog
+            mProgressDialog.show();
+
+            medicinasT = (TextView) rootView.findViewById(R.id.medicinas);
+            indicaciones = (EditText) rootView.findViewById(R.id.indicaciones);
+            medicinas = getArguments().getStringArrayList("medicinas");
+
+            String x = "";
+            for (int i = 0; i < medicinas.size(); i++) {
+                Log.v("MEDICINASRECETa", medicinas.get(i).toString());
+                x += medicinas.get(i).toString();
+                x += "\n";
+                medicinasT.setText(x);
+            }
+
+
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... params) {
+            // Create the array
+            //rootView = inflater.inflate(R.layout.guardar_receta, container, false);
+            idMedicina = "";
+
+
+            ParseObject p_m;
+            int num=0;
+            p_m = new ParseObject("Paciente_medicamento");
+            for (int i = 0; i < medicinas.size(); i++) {
+                ParseQuery<ParseObject> query = ParseQuery.getQuery("Medicamento");
+                query.whereEqualTo("nombre", medicinas.get(i).toString()).
+                        findInBackground(new FindCallback<ParseObject>() {
+                            public void done(List<ParseObject> objects, ParseException e) {
+                                if (e == null) {
+                                    for (ParseObject parseObject : objects) {
+                                        //Log.v("Parse Object", parseObject.getObjectId().toString());
+                                        idMedicina = parseObject.getObjectId().toString();
+                                        idMedicinas.add(idMedicina);
+                                    }
+
+                                } else {
+                                    Log.d(getClass().getSimpleName(), "Error: " + e.getMessage());
+                                }
+                                Log.v("-------------->SIZEmeds", medicinas.size() + "<-----------");
+                                Log.v("-------------->SIZE1", idMedicinas.size() + "<-----------");
+                                if(medicinas.size() == idMedicinas.size()){
+                                    for (int i = 0; i < idMedicinas.size(); i++) {
+                                        Log.v("Entro", "Entro al for");
+                                        ParseObject p_m2 = new ParseObject("Paciente_medicamento");
+                                        p_m2.put("id_p", idP);
+                                        p_m2.put("periodo", indicaciones.getText().toString());
+                                        //p_m2.put("periodo", "PERIODO----->");
+                                        p_m2.put("id_m", idMedicinas.get(i).toString());
+                                        Log.i("GUARDAR", idMedicinas.get(i).toString());
+
+                                        p_m2.saveInBackground(new SaveCallback() {
+                                            @Override
+                                            public void done(ParseException e) {
+                                                if (e == null) {
+                                                    //Toast.makeText(getActivity().getApplicationContext(), "Medicamento guardado", Toast.LENGTH_LONG).show();
+                                                    //closefragment();
+                                                    Log.i("veces", String.valueOf(tag));
+                                                    flag = true;
+                                                    tag++;
+                                                } else {
+                                                    //Toast.makeText(getActivity().getApplicationContext(), "Algo salio mal", Toast.LENGTH_LONG).show();
+                                                    e.printStackTrace();
+                                                }
+                                            }
+                                        });
+                                    }
+
+                                }
+                            }
+                        });
+
+            }
+            Log.v("--------------> size",idMedicinas.size()+ "<-----------");
+            Log.v("--------> sizemeds",medicinas.size()+ "<--------");
+
+
+
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+
+
+            // Close the progressdialog
+            //closefragment();
+            mProgressDialog.dismiss();
+        }
+    }
+
+
 
 
 }

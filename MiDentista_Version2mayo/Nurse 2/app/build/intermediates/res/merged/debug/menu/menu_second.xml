@@ -4,4 +4,4 @@
     tools:context="mx.itesm.ladiesnight.Login">
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
-</menu><!-- From: file:/Users/velahuer/Desktop/MiDentista/Nurse%202/app/src/main/res/menu/menu_second.xml -->
+</menu><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/menu/menu_second.xml -->

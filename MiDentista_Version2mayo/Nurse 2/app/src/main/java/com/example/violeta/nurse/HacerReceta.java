@@ -5,10 +5,12 @@ import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class HacerReceta extends AppCompatActivity {
 
@@ -27,15 +29,22 @@ public class HacerReceta extends AppCompatActivity {
         fragmentTransaction.commit();
     }
 
+    private boolean doubleBackToExitPressedOnce = false;
     public void onBackPressed() {
-        int count = getFragmentManager().getBackStackEntryCount();
-
-        if (count == 0) {
+        if (doubleBackToExitPressedOnce) {
             super.onBackPressed();
-        } else {
-            getFragmentManager().popBackStack();
+            return;
         }
 
+        this.doubleBackToExitPressedOnce = true;
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+            }
+        }, 2000);
     }
 
 

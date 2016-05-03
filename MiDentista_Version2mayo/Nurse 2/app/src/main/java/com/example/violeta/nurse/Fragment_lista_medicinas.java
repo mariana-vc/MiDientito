@@ -118,4 +118,5 @@ public class Fragment_lista_medicinas extends Fragment implements AdapterView.On
         Toast.makeText(getActivity().getApplicationContext(),medicina+" agregado a la receta",Toast.LENGTH_LONG).show();
     }
 
+
 }

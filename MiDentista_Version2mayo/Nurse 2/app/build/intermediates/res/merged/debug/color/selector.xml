@@ -4,4 +4,4 @@
     <item android:state_focused="true" android:color="@android:color/white" />
     <item android:state_pressed="true" android:color="@android:color/white" />
     <item android:color="@color/tabsScrollColor" />
-</selector><!-- From: file:/Users/velahuer/Desktop/MiDentista/Nurse%202/app/src/main/res/color/selector.xml -->
+</selector><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/color/selector.xml -->
