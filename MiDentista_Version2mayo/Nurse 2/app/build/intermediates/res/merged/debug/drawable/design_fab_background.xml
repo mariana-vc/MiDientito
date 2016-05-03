@@ -18,8 +18,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="oval">
     <solid android:color="@android:color/white" />
-<<<<<<< Updated upstream
-</shape><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/drawable/design_fab_background.xml --><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml -->
-=======
 </shape><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/design/res/drawable/design_fab_background.xml --><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/res/drawable/design_fab_background.xml -->
->>>>>>> Stashed changes

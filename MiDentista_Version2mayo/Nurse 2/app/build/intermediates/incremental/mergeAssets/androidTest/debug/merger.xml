@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< Updated upstream
-<merger version="3"><dataSet config="main"><source path="C:\Users\MarianaItzel\Documents\Octavo semestre\Arquitectura\Proyecto\MiDentista_Version2mayo\Nurse 2\app\src\androidTest\assets"/></dataSet></merger>
-=======
 <merger version="3"><dataSet config="main"><source path="/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse 2/app/src/androidTest/assets"/></dataSet></merger>
->>>>>>> Stashed changes

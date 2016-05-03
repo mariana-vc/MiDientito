@@ -12,8 +12,4 @@
     <item
         android:drawable="@drawable/common_plus_signin_btn_text_light_normal" />
 </selector>
-<<<<<<< Updated upstream
-<!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml -->
-=======
 <!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable/common_plus_signin_btn_text_light.xml -->
->>>>>>> Stashed changes

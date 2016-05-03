@@ -32,8 +32,4 @@
         android:text="Guardar"
         android:layout_gravity="center_horizontal"
         android:id="@+id/guardaReceta" />
-<<<<<<< Updated upstream
-</LinearLayout><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/guardar_receta.xml -->
-=======
 </LinearLayout><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/src/main/res/layout/guardar_receta.xml -->
->>>>>>> Stashed changes

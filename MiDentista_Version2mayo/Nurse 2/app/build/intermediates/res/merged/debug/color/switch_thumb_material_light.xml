@@ -17,8 +17,4 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_enabled="false" android:color="@color/switch_thumb_disabled_material_light"/>
     <item android:color="@color/switch_thumb_normal_material_light"/>
-<<<<<<< Updated upstream
-</selector><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/color/switch_thumb_material_light.xml --><!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color/switch_thumb_material_light.xml -->
-=======
 </selector><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/color/switch_thumb_material_light.xml --><!-- From: file:/Users/velahuer/Documents/Fernanda/8vo/Arquitectura/MiDientito/MiDentista_Version2mayo/Nurse%202/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/color/switch_thumb_material_light.xml -->
->>>>>>> Stashed changes
