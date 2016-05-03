@@ -44,17 +44,16 @@
                     android:textColor="#3189ff" />
 
                 <EditText
-                    android:layout_width="match_parent"
+                    android:layout_width="145dp"
                     android:layout_height="wrap_content"
                     android:inputType="number"
                     android:ems="10"
                     android:id="@+id/edad"
-                    android:layout_gravity="center_horizontal"
                     android:hint="Edad"
-                    android:layout_marginBottom="10dp"
                     android:gravity="left"
                     android:textColor="#3189ff"
-                    android:textColorHint="#3189ff" />
+                    android:textColorHint="#3189ff"
+                    android:layout_weight="1" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -67,7 +66,8 @@
                     android:layout_marginBottom="10dp"
                     android:gravity="left"
                     android:textColor="#3189ff"
-                    android:textColorHint="#3189ff" />
+                    android:textColorHint="#3189ff"
+                    android:layout_weight="1" />
 
                 <EditText
                     android:layout_width="match_parent"
@@ -94,6 +94,7 @@
                     android:gravity="left"
                     android:textColor="#3189ff"
                     android:textColorHint="#3189ff" />
+
 
                 <RadioGroup
                     android:layout_width="match_parent"
@@ -129,6 +130,25 @@
                     android:entries="@array/tipoSangre"
                     android:foregroundGravity="center"
                     android:background="#3189ff" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/hemofilia"
+                    android:layout_gravity="center_horizontal"
+                    android:entries="@array/Hemofilia"
+                    android:foregroundGravity="center"
+                    android:background="#3189ff" />
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/donador"
+                    android:layout_gravity="center_horizontal"
+                    android:entries="@array/Donador"
+                    android:foregroundGravity="center"
+                    android:background="#3189ff" />
+
 
                 <LinearLayout
                     android:orientation="horizontal"

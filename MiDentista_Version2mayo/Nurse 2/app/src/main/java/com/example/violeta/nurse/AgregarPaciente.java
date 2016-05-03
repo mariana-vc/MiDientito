@@ -33,7 +33,7 @@ public class AgregarPaciente extends AppCompatActivity {
     EditText nombre, segSoc,edad, peso, estatura, telemergencia;
     RadioGroup radioGroup;
     RadioButton masc, fem;
-    Spinner spinner;
+    Spinner spinner, hemofilia, donador;
     CheckBox alergia,alergia2,alergia3;
     Button hecho;
     String seleccionado;
@@ -62,6 +62,8 @@ public class AgregarPaciente extends AppCompatActivity {
         masc = (RadioButton)findViewById(R.id.masc);
         fem = (RadioButton)findViewById(R.id.fem);
         spinner = (Spinner)findViewById(R.id.spinner);
+        hemofilia = (Spinner)findViewById(R.id.hemofilia);
+        donador = (Spinner)findViewById(R.id.donador);
         alergia = (CheckBox)findViewById(R.id.alergia);
         alergia2 = (CheckBox)findViewById(R.id.alergia2);
         alergia3 = (CheckBox)findViewById(R.id.alergia3);
@@ -152,6 +154,8 @@ public class AgregarPaciente extends AppCompatActivity {
         paciente.put("ContactoDeEmergencia", telemergencia.getText().toString());
         paciente.put("Sexo", genero);
         paciente.put("TipoSanguineo", seleccionado);
+        paciente.put("Hemofilia", seleccionado);
+        paciente.put("Donador", seleccionado);
         paciente.saveInBackground(new SaveCallback() {
             public void done(ParseException e) {
                 if (e == null) {
