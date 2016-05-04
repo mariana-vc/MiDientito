@@ -60,13 +60,13 @@
     </array>
 
     <array name="Hemofilia">
-        <item>Si</item>
-        <item>No</item>
+        <item>Paciente con hemofilia</item>
+        <item>Paciente sin hemofilia</item>
     </array>
 
     <array name="Donador">
-        <item>Si</item>
-        <item>No</item>
+        <item>Paciente donador de órganos</item>
+        <item>Paciente no donador de órganos</item>
     </array>
     <string name="title_activity_menu_opciones">MenuOpciones</string>
 

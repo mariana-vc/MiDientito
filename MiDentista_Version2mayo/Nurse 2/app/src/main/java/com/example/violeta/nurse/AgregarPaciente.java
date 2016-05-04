@@ -51,12 +51,10 @@ public class AgregarPaciente extends AppCompatActivity {
         segSoc = (EditText)findViewById(R.id.segSoc);
         edad = (EditText)findViewById(R.id.edad);
         peso = (EditText)findViewById(R.id.peso);
-        estatura = (EditText)findViewById(R.id.estatura);
         telemergencia = (EditText)findViewById(R.id.telemergencia);
         //---------------------------------------------------------------------------------------->
         edad.setFilters(new InputFilter[]{new InputFilterMinMax("0", "120")});
         peso.setFilters(new InputFilter[]{new InputFilterMinMax("0", "400")});
-        estatura.setFilters(new InputFilter[]{new InputFilterMinMax("20", "200")});
 
         radioGroup = (RadioGroup)findViewById(R.id.radioGroup);
         masc = (RadioButton)findViewById(R.id.masc);
@@ -127,7 +125,6 @@ public class AgregarPaciente extends AppCompatActivity {
                         || segSoc.getText().toString().equals("")
                         || edad.getText().toString().equals("")
                         || peso.getText().toString().equals("")
-                        || estatura.getText().toString().equals("")
                         || telemergencia.getText().toString().equals("")
                         || genero.equals("")
                         || seleccionado.equals("")) {
@@ -150,7 +147,7 @@ public class AgregarPaciente extends AppCompatActivity {
         paciente.put("NumeroSeguro", segSoc.getText().toString());
         paciente.put("Edad", edad.getText().toString());
         paciente.put("Peso", peso.getText().toString());
-        paciente.put("Estatura", estatura.getText().toString());
+
         paciente.put("ContactoDeEmergencia", telemergencia.getText().toString());
         paciente.put("Sexo", genero);
         paciente.put("TipoSanguineo", seleccionado);

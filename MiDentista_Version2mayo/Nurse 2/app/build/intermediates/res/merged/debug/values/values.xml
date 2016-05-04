@@ -3,12 +3,12 @@
     <!-- From: file:/C:/Users/MarianaItzel/Documents/Octavo%20semestre/Arquitectura/Proyecto/MiDentista_Version2mayo/Nurse%202/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <array name="Donador">
-        <item>Si</item>
-        <item>No</item>
+        <item>Paciente donador de órganos</item>
+        <item>Paciente no donador de órganos</item>
     </array>
     <array name="Hemofilia">
-        <item>Si</item>
-        <item>No</item>
+        <item>Paciente con hemofilia</item>
+        <item>Paciente sin hemofilia</item>
     </array>
     <string-array name="historial_array">
         <item>Fecha: 22/11/2015  REVISION GENERAL</item>

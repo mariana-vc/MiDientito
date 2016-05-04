@@ -11,11 +11,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Historial extends ListActivity  {
 
@@ -33,9 +35,31 @@ public class Historial extends ListActivity  {
         //listView.setOnItemClickListener(this);
 
         listView = (ListView) findViewById(R.id.listView);
-        new RemoteDataTask().execute();
+        //ArrayAdapter<String> adapter;
+        ArrayList<Hist> listItems=new ArrayList<>();
+
         Intent intent = getIntent();
         id = intent.getStringExtra("id");
+
+        System.out.println("### "+ id);
+
+
+        HistorialListHandler historiaListHandler;
+        historiaListHandler = new HistorialListHandler(new Hist(), id);
+        historiaListHandler.executeSearch();
+
+        listItems =  historiaListHandler.getList();
+        //historial =  historialListHandler.getList();
+
+
+        List<String> strings = new ArrayList<String>();
+        for (Object object : listItems) {
+            strings.add(object != null ? object.toString() : null);
+        }
+        HistorialAdapter adapter = new HistorialAdapter(Historial.this, R.layout.renglon_layout2, listItems); //contiene los datos y los controla
+        setListAdapter(adapter);
+
+        //listView.setOnItemClickListener(this);
     }
 
     private class RemoteDataTask extends AsyncTask<Void, Void, Void> {
@@ -58,7 +82,7 @@ public class Historial extends ListActivity  {
             // Create the array
             HistorialListHandler historialListHandler;
             historialListHandler = new HistorialListHandler(new Hist(),id);
-            historialListHandler.executeSearch(id);
+            //historialListHandler.executeSearch(id);
             historial =  historialListHandler.getList();
 
             return null;
@@ -66,8 +90,8 @@ public class Historial extends ListActivity  {
 
         @Override
         protected void onPostExecute(Void result) {
-            HistorialAdapter adapter = new HistorialAdapter(Historial.this, R.layout.renglon_layout2, historial); //contiene los datos y los controla
-            setListAdapter(adapter);
+            /*HistorialAdapter adapter = new HistorialAdapter(Historial.this, R.layout.renglon_layout2, historial); //contiene los datos y los controla
+            setListAdapter(adapter);*/
             // Close the progressdialog
             mProgressDialog.dismiss();
         }

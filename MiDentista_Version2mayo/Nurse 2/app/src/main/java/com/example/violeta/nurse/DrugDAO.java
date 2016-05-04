@@ -40,6 +40,7 @@ public class DrugDAO{
 
 
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Medicamento");
+            query.orderByAscending("nombre");
             query.findInBackground(new FindCallback<ParseObject>() {
                 @Override
                 public void done(List<ParseObject> list, com.parse.ParseException e) {

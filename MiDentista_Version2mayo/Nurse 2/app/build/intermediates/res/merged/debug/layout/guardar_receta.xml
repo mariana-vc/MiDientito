@@ -36,7 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="180dp"
         android:hint="Indicaciones / observaciones"
-        android:gravity="center"
+        android:gravity="center_horizontal"
         android:background="@android:color/holo_blue_dark"
         android:id="@+id/indicaciones" />
 

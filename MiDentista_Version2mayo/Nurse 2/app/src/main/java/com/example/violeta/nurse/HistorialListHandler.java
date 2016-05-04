@@ -10,18 +10,18 @@ public class HistorialListHandler extends ValueListHandler<Hist> {
     public HistorialListHandler(Hist historial, String id) {
         try {
             this.historial = historial;
-            this.dao = new HistorialDao();
-            executeSearch(id);
+            this.dao = new HistorialDao(id);
+            executeSearch();
         } catch (Exception e) {
         }
     }
 
-    public void executeSearch(String id) {
+    public void executeSearch() {
         try {
             if (historial == null) {
                 System.out.println("historial is null");
             }
-            ArrayList<Hist> resultsList =dao.executeSelect(historial,id);
+            ArrayList<Hist> resultsList =dao.executeSelect(historial);
             System.out.println("resultado hist " + resultsList);
             setList(resultsList);
         } catch (Exception e) {

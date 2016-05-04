@@ -7,30 +7,70 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 
 public class HistorialDao {
 
     final private String tableName = "DRUG";
-    private ArrayList<Hist> historial_list= new ArrayList<Hist>();
+
 
     // select statement uses fields
     final private String fields = "nombre,descripcion "; //columnas
+    List<ParseObject> ob;
+    String id;
 
-    public ArrayList<Hist> executeSelect(Hist hist, String id) {
+    public HistorialDao(String id){
+        this.id=id;
+    }
+
+    public ArrayList<Hist> executeSelect(Hist hist) {
         ArrayList<Hist> list = null;
         ResultSet rs = null;
-        list = prepareResult(rs, id);
+        list = prepareResult(rs);
+
+        System.out.println("id: "+ id);
 
         return list;
     }
 
-    private ArrayList<Hist> prepareResult(ResultSet rs, String id){
-        historial_list=new ArrayList<>();
+    private ArrayList<Hist> prepareResult(ResultSet rs){
+        /*historial_list=new ArrayList<>();
         historial_list.add(new Hist("Limpieza","15-04-2016"));
-        historial_list.add(new Hist("Extracción tercer molar","20-04-2016"));
+        historial_list.add(new Hist("Extracción tercer molar","20-04-2016"));*/
+        ArrayList<Hist> historias = new ArrayList<Hist>();
+        System.out.println("+++ " + id);
+            /*for(int i=0; i<=5;i++){
+                Date dt = new Date();
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                String fecha = formatter.format(dt);
+
+                Historia historia = new Historia("Historia"+i,fecha);
+                list.add(historia);
+
+            }*/
+        try {
+            ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Recordatorio");
+            query.whereEqualTo("id_p", id);
+            query.orderByAscending("fecha");
+            ob = query.find();
+            for (ParseObject rec : ob) {
+                Date dt = rec.getDate("fecha");
+                SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+                String fecha = formatter.format(dt);
+                Hist t = new Hist(rec.getString("nombre"), fecha);
+                historias.add(t);
+                System.out.println("--> " + historias);
+            }
+        } catch (com.parse.ParseException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("***"+historias);
+        return historias;
 
 
 /*
@@ -63,8 +103,8 @@ public class HistorialDao {
 
             }
         });*/
-System.out.println("***"+historial_list);
 
-        return historial_list;
+
+        //return historial_list;
     }
 }

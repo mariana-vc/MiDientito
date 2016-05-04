@@ -76,6 +76,7 @@ public class PerfilPaciente extends AppCompatActivity {
 
     public void historial(View v){
         Intent it= new Intent(this, Historial.class);
+        it.putExtra("id", id);
         startActivity(it);
     }
 

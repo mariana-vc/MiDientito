@@ -1,6 +1,8 @@
 package com.example.violeta.nurse;
 
-
+/**
+ * Created by MarianaItzel on 03/05/2016.
+ */
 public class Hist {
     public String nombre, descripcion;
 
@@ -11,5 +13,4 @@ public class Hist {
     public Hist(){
 
     }
-
 }

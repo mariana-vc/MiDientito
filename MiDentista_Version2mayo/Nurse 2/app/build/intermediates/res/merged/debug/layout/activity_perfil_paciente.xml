@@ -128,7 +128,7 @@
          />
 
     <Button
-        android:text="Ver historial"
+        android:text="Ver historial de visitas"
         android:id="@+id/historial"
         android:textColor="@android:color/holo_blue_dark"
         android:background="@android:color/white"
